@@ -168,32 +168,19 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
       <a href="/" class="back">← Back to Videos</a>
 
       <!-- VIDEO PLAYER -->
-
       <div class="player">
-        {
-          video.server1Url && (
-            <iframe
-              id="videoPlayer"
-              src={video.server1Url}
-              title={video.title}
-              allowfullscreen
-            />
-          )
-        }
+        <iframe id="videoPlayer" title={video.title} allowfullscreen></iframe>
       </div>
 
       <!-- TITLE -->
-
       <h1 class="title">
         {video.title}
       </h1>
 
       <!-- DESCRIPTION -->
-
       {video.description && <p class="description">{video.description}</p>}
 
       <!-- META -->
-
       <div class="meta">
         <span>
           {video.category || "Video"}
@@ -207,12 +194,11 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
       </div>
 
       <!-- SERVERS -->
-
       <div class="servers">
         {
           video.server1Url && (
             <button
-              class="server-btn active"
+              class="server-btn"
               onclick={`switchServer('${video.server1Url}', this)`}
             >
               Server 1
@@ -256,7 +242,6 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
     </main>
 
     <!-- SERVER SWITCHING -->
-
     <script>
       function switchServer(url, button) {
         const player = document.getElementById("videoPlayer");
