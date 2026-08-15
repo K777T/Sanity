@@ -13,6 +13,8 @@ const videoFields = `
   featured,
   server1Url,
   server2Url,
+  server3Url,
+  server4Url,
   _createdAt
 `;
 

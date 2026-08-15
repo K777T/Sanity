@@ -113,6 +113,7 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
 
       .servers {
         display: flex;
+        flex-wrap: wrap;
         gap: 10px;
         margin-top: 20px;
       }
@@ -124,9 +125,15 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
         background: #252545;
         color: white;
         cursor: pointer;
+        transition: 0.2s ease;
       }
 
       .server-btn:hover {
+        background: #00d4aa;
+        color: #071b18;
+      }
+
+      .server-btn.active {
         background: #00d4aa;
         color: #071b18;
       }
@@ -143,6 +150,11 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
         .title {
           font-size: 24px;
         }
+
+        .server-btn {
+          flex: 1;
+          min-width: 120px;
+        }
       }
     </style>
   </head>
@@ -154,6 +166,8 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
 
     <main class="container">
       <a href="/" class="back">← Back to Videos</a>
+
+      <!-- VIDEO PLAYER -->
 
       <div class="player">
         {
@@ -168,14 +182,22 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
         }
       </div>
 
+      <!-- TITLE -->
+
       <h1 class="title">
         {video.title}
       </h1>
 
+      <!-- DESCRIPTION -->
+
       {video.description && <p class="description">{video.description}</p>}
 
+      <!-- META -->
+
       <div class="meta">
-        <span>{video.category || "Video"}</span>
+        <span>
+          {video.category || "Video"}
+        </span>
 
         {
           typeof video.rating === "number" && (
@@ -184,12 +206,14 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
         }
       </div>
 
+      <!-- SERVERS -->
+
       <div class="servers">
         {
           video.server1Url && (
             <button
-              class="server-btn"
-              onclick={`document.getElementById('videoPlayer').src='${video.server1Url}'`}
+              class="server-btn active"
+              onclick={`switchServer('${video.server1Url}', this)`}
             >
               Server 1
             </button>
@@ -200,13 +224,55 @@ console.log("🔥 STATIC WATCH PAGE:", video.slug);
           video.server2Url && (
             <button
               class="server-btn"
-              onclick={`document.getElementById('videoPlayer').src='${video.server2Url}'`}
+              onclick={`switchServer('${video.server2Url}', this)`}
             >
               Server 2
             </button>
           )
         }
+
+        {
+          video.server3Url && (
+            <button
+              class="server-btn"
+              onclick={`switchServer('${video.server3Url}', this)`}
+            >
+              Server 3
+            </button>
+          )
+        }
+
+        {
+          video.server4Url && (
+            <button
+              class="server-btn"
+              onclick={`switchServer('${video.server4Url}', this)`}
+            >
+              Server 4
+            </button>
+          )
+        }
       </div>
     </main>
+
+    <!-- SERVER SWITCHING -->
+
+    <script>
+      function switchServer(url, button) {
+        const player = document.getElementById("videoPlayer");
+
+        if (!player || !url) {
+          return;
+        }
+
+        player.src = url;
+
+        document
+          .querySelectorAll(".server-btn")
+          .forEach((btn) => btn.classList.remove("active"));
+
+        button.classList.add("active");
+      }
+    </script>
   </body>
 </html>

@@ -99,3 +99,11 @@ sanity dataset export/import
 ```
 
 **Lekin ek clarification:** agar tum “Sanity ki production deploy” se **production dataset/schema ko initialize ya migrate karna** mean kar rahe ho, mujhe tumhara `sanity.cli.ts` / `sanity.config.ts` aur current datasets (`development`, `production`) ka setup dikha do. Main exact commands bata dunga, taaki galti se production content overwrite na ho.
+
+
+
+
+
+npm run build 
+
+use this command to build package.json and then push to main branch if u want to deploy the chngesni browser and remembed to use cdn set as false if u want to see changes really fast and then deisable it in production 
