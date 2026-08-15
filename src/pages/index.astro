@@ -2,7 +2,6 @@
 import Layout from "../layouts/Layout.astro";
 import { getVideos } from "../lib/queries";
 
-export const prerender = false;
 
 const videos = await getVideos();
 

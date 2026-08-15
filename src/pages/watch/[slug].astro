@@ -1,20 +1,28 @@
 ---
-export const prerender = false;
+import { getVideos } from "../../lib/queries";
 
-import { getVideo } from "../../lib/queries";
+export async function getStaticPaths() {
+  const videos = await getVideos();
 
-const { slug } = Astro.params;
+  return videos
+    .filter((video) => video.slug)
+    .map((video) => ({
+      params: {
+        slug: video.slug,
+      },
+      props: {
+        video,
+      },
+    }));
+}
 
-console.log("🔥 WATCH ROUTE HIT");
-console.log("🔥 SLUG:", slug);
-
-const video = slug ? await getVideo(slug) : null;
-
-console.log("🔥 VIDEO:", video);
+const { video } = Astro.props;
 
 if (!video) {
   return Astro.redirect("/");
 }
+
+console.log("🔥 STATIC WATCH PAGE:", video.slug);
 ---
 
 <!doctype html>
@@ -141,11 +149,11 @@ if (!video) {
 
   <body>
     <header class="header">
-      <a href="/" class="logo"> ▶ ViralDekho </a>
+      <a href="/" class="logo">▶ ViralDekho</a>
     </header>
 
     <main class="container">
-      <a href="/" class="back"> ← Back to Videos </a>
+      <a href="/" class="back">← Back to Videos</a>
 
       <div class="player">
         {
@@ -155,7 +163,7 @@ if (!video) {
               src={video.server1Url}
               title={video.title}
               allowfullscreen
-            > </iframe>
+            />
           )
         }
       </div>
