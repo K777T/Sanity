@@ -1,0 +1,55 @@
+@import "tailwindcss";
+.thumbnail {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  background: #222;
+  overflow: hidden;
+}
+
+.thumbnail-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.thumbnail-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  background: #222;
+  font-size: 13px;
+}
+
+.thumbnail-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: 0.2s;
+  z-index: 2;
+}
+
+.video-card:hover .thumbnail-overlay {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.play-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e74c3c;
+  color: white;
+}

@@ -1,0 +1,204 @@
+---
+export const prerender = false;
+
+import { getVideo } from "../../lib/queries";
+
+const { slug } = Astro.params;
+
+console.log("🔥 WATCH ROUTE HIT");
+console.log("🔥 SLUG:", slug);
+
+const video = slug ? await getVideo(slug) : null;
+
+console.log("🔥 VIDEO:", video);
+
+if (!video) {
+  return Astro.redirect("/");
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{video.title}</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: #0f0f23;
+        color: white;
+      }
+
+      .header {
+        height: 72px;
+        display: flex;
+        align-items: center;
+        padding: 0 25px;
+        background: #1a1a2e;
+        border-bottom: 1px solid #252545;
+      }
+
+      .logo {
+        color: #00d4aa;
+        font-size: 21px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 30px 20px;
+      }
+
+      .back {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #aaa;
+        text-decoration: none;
+      }
+
+      .back:hover {
+        color: white;
+      }
+
+      .player {
+        width: 100%;
+        background: #000;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .player iframe {
+        display: block;
+        width: 100%;
+        height: 600px;
+        border: 0;
+      }
+
+      .title {
+        margin-top: 25px;
+        font-size: 30px;
+      }
+
+      .description {
+        margin-top: 12px;
+        color: #aaa;
+        line-height: 1.6;
+      }
+
+      .meta {
+        display: flex;
+        gap: 15px;
+        margin-top: 15px;
+        color: #888;
+      }
+
+      .servers {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+      }
+
+      .server-btn {
+        padding: 10px 16px;
+        border: 0;
+        border-radius: 7px;
+        background: #252545;
+        color: white;
+        cursor: pointer;
+      }
+
+      .server-btn:hover {
+        background: #00d4aa;
+        color: #071b18;
+      }
+
+      @media (max-width: 700px) {
+        .container {
+          padding: 20px 15px;
+        }
+
+        .player iframe {
+          height: 400px;
+        }
+
+        .title {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="/" class="logo"> ▶ ViralDekho </a>
+    </header>
+
+    <main class="container">
+      <a href="/" class="back"> ← Back to Videos </a>
+
+      <div class="player">
+        {
+          video.server1Url && (
+            <iframe
+              id="videoPlayer"
+              src={video.server1Url}
+              title={video.title}
+              allowfullscreen
+            > </iframe>
+          )
+        }
+      </div>
+
+      <h1 class="title">
+        {video.title}
+      </h1>
+
+      {video.description && <p class="description">{video.description}</p>}
+
+      <div class="meta">
+        <span>{video.category || "Video"}</span>
+
+        {
+          typeof video.rating === "number" && (
+            <span>⭐ {video.rating.toFixed(1)}</span>
+          )
+        }
+      </div>
+
+      <div class="servers">
+        {
+          video.server1Url && (
+            <button
+              class="server-btn"
+              onclick={`document.getElementById('videoPlayer').src='${video.server1Url}'`}
+            >
+              Server 1
+            </button>
+          )
+        }
+
+        {
+          video.server2Url && (
+            <button
+              class="server-btn"
+              onclick={`document.getElementById('videoPlayer').src='${video.server2Url}'`}
+            >
+              Server 2
+            </button>
+          )
+        }
+      </div>
+    </main>
+  </body>
+</html>

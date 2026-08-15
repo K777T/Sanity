@@ -1,17 +1,1132 @@
 ---
+import Layout from "../layouts/Layout.astro";
+import { getVideos } from "../lib/queries";
 
+export const prerender = false;
+
+const videos = await getVideos();
+
+console.log("🔥 HOME VIDEOS:", videos.length);
+console.log("🔥 HOME VIDEO DATA:", videos);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Home">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f23;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ================= HEADER ================= */
+
+    .header {
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 25px;
+      background: #1a1a2e;
+      border-bottom: 1px solid #252545;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 21px;
+      font-weight: bold;
+      color: #00d4aa;
+      white-space: nowrap;
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 10px;
+      margin-left: 30px;
+    }
+
+    .nav-tab {
+      padding: 10px 14px;
+      color: #aaa;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+
+    .nav-tab:hover,
+    .nav-tab.active {
+      color: white;
+      background: #252545;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .search-input {
+      width: 280px;
+      padding: 11px 17px;
+      border: 1px solid #29294b;
+      outline: none;
+      border-radius: 25px;
+      background: #121228;
+      color: white;
+    }
+
+    .search-input:focus {
+      border-color: #00d4aa;
+    }
+
+    /* ================= MAIN ================= */
+
+    .main-container {
+      display: flex;
+      min-height: calc(100vh - 72px);
+    }
+
+    /* ================= LEFT SIDEBAR ================= */
+
+    .sidebar {
+      width: 230px;
+      flex-shrink: 0;
+      background: #1a1a2e;
+      padding: 25px 15px;
+      border-right: 1px solid #252545;
+    }
+
+    .sidebar-section {
+      margin-bottom: 30px;
+    }
+
+    .sidebar-title {
+      color: #777;
+      font-size: 12px;
+      text-transform: uppercase;
+      margin: 0 10px 12px;
+      letter-spacing: 1px;
+    }
+
+    .sidebar-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 11px 13px;
+      margin-bottom: 4px;
+      color: #aaa;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+
+    .sidebar-item:hover {
+      background: #252545;
+      color: white;
+    }
+
+    .sidebar-item.active {
+      background: #00d4aa;
+      color: #071b18;
+    }
+
+    /* ================= CONTENT ================= */
+
+    .content {
+      flex: 1;
+      min-width: 0;
+      padding: 25px;
+    }
+
+    /* ================= HERO ================= */
+
+    .hero-section {
+      height: 390px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      margin-bottom: 35px;
+      background: #17172b;
+    }
+
+    .hero-image {
+      position: absolute;
+      inset: 0;
+      background-position: center;
+      background-size: cover;
+      filter: brightness(0.55);
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.15)
+      );
+      display: flex;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .hero-content {
+      max-width: 600px;
+    }
+
+    .hero-title {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    .hero-description {
+      color: #ccc;
+      line-height: 1.6;
+      margin-bottom: 22px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 7px;
+      padding: 12px 18px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background: #e74c3c;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      opacity: 0.9;
+    }
+
+    /* ================= SECTIONS ================= */
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+    }
+
+    .section-title {
+      font-size: 22px;
+    }
+
+    .video-count {
+      color: #777;
+      font-size: 13px;
+    }
+
+    /* ================= VIDEO GRID ================= */
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    /* ================= VIDEO CARD ================= */
+
+    .video-card {
+      min-width: 0;
+      background: #191927;
+      border: 1px solid #29293c;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .video-card:hover {
+      transform: translateY(-5px);
+      border-color: #00d4aa;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    /* ================= THUMBNAIL ================= */
+
+    .thumbnail {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      background: #222;
+      overflow: hidden;
+    }
+
+    .thumbnail-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .thumbnail-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      background: #222;
+      font-size: 13px;
+    }
+
+    .thumbnail-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transition: 0.2s;
+      z-index: 2;
+    }
+
+    .video-card:hover .thumbnail-overlay {
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.35);
+    }
+
+    .play-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #e74c3c;
+      color: white;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    /* ================= VIDEO INFO ================= */
+
+    .video-info {
+      padding: 13px;
+    }
+
+    .video-title {
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 1.4;
+      margin-bottom: 8px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .video-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      color: #777;
+      font-size: 12px;
+    }
+
+    .video-category {
+      min-width: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .rating {
+      color: #f3b33d;
+      white-space: nowrap;
+    }
+
+    /* ================= TAGS ================= */
+
+    .video-tags {
+      display: flex;
+      gap: 5px;
+      margin-top: 8px;
+      overflow: hidden;
+    }
+
+    .video-tag {
+      flex-shrink: 0;
+      padding: 3px 7px;
+      border-radius: 10px;
+      background: #252545;
+      color: #999;
+      font-size: 10px;
+    }
+
+    /* ================= RIGHT SIDEBAR ================= */
+
+    .sidebar-right {
+      width: 280px;
+      flex-shrink: 0;
+      background: #171722;
+      border-left: 1px solid #29293c;
+      padding: 25px 15px;
+    }
+
+    .popular-item {
+      display: flex;
+      gap: 10px;
+      padding: 9px;
+      margin-bottom: 8px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .popular-item:hover {
+      background: #252535;
+    }
+
+    .popular-poster {
+      width: 65px;
+      height: 85px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      background-position: center;
+      background-size: cover;
+      background-color: #222;
+    }
+
+    .popular-info {
+      min-width: 0;
+    }
+
+    .popular-info h4 {
+      font-size: 13px;
+      margin-bottom: 6px;
+    }
+
+    .popular-info p {
+      font-size: 11px;
+      color: #777;
+    }
+
+    /* ================= EMPTY ================= */
+
+    .empty {
+      padding: 50px;
+      text-align: center;
+      color: #777;
+      grid-column: 1 / -1;
+    }
+
+    /* ================= DESKTOP ================= */
+
+    @media (min-width: 801px) {
+      .video-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+    }
+
+    /* ================= TABLET ================= */
+
+    @media (max-width: 1100px) {
+      .sidebar-right {
+        display: none;
+      }
+
+      .search-input {
+        width: 200px;
+      }
+    }
+
+    /* ================= MOBILE ================= */
+
+    @media (max-width: 800px) {
+      .sidebar {
+        display: none;
+      }
+
+      .header {
+        padding: 0 15px;
+      }
+
+      .nav-tabs {
+        display: none;
+      }
+
+      .search-input {
+        width: 150px;
+      }
+
+      .content {
+        padding: 15px;
+      }
+
+      .hero-section {
+        height: 330px;
+      }
+
+      .hero-overlay {
+        padding: 25px;
+      }
+
+      .hero-title {
+        font-size: 30px;
+      }
+
+      .video-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .video-info {
+        padding: 10px;
+      }
+
+      .video-title {
+        font-size: 14px;
+      }
+    }
+
+    /* ================= SMALL MOBILE ================= */
+
+    @media (max-width: 450px) {
+      .search-bar i {
+        display: none;
+      }
+
+      .search-input {
+        width: 130px;
+      }
+
+      .video-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .video-info {
+        padding: 9px;
+      }
+
+      .video-title {
+        font-size: 13px;
+      }
+
+      .video-meta {
+        font-size: 11px;
+      }
+    }
+  </style>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="header">
+    <div class="logo">
+      <i class="fas fa-play-circle"></i>
+      ViralDekho
+    </div>
+
+    <nav class="nav-tabs">
+      <a class="nav-tab active" href="/">Videos</a>
+      <a class="nav-tab" href="#">Library</a>
+    </nav>
+
+    <div class="search-bar">
+      <input
+        id="searchInput"
+        class="search-input"
+        type="text"
+        placeholder="Search videos..."
+      />
+
+      <i class="fas fa-search"></i>
+    </div>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+
+  <div class="main-container">
+    <!-- LEFT SIDEBAR -->
+
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">Menu</h3>
+
+        <a class="sidebar-item active" href="/">
+          <i class="fas fa-home"></i>
+          Home
+        </a>
+
+        <a class="sidebar-item" href="#trending">
+          <i class="fas fa-fire"></i>
+          Trending
+        </a>
+
+        <a class="sidebar-item" href="#latest">
+          <i class="fas fa-clock"></i>
+          Latest
+        </a>
+      </div>
+
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">Categories</h3>
+
+        <div id="categoryMenu"></div>
+      </div>
+
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">General</h3>
+
+        <a class="sidebar-item" href="#">
+          <i class="fas fa-file-contract"></i>
+          Terms
+        </a>
+
+        <a class="sidebar-item" href="#">
+          <i class="fas fa-shield-alt"></i>
+          Privacy
+        </a>
+
+        <a class="sidebar-item" href="#">
+          <i class="fas fa-envelope"></i>
+          DMCA
+        </a>
+      </div>
+    </aside>
+
+    <!-- CONTENT -->
+
+    <main class="content">
+      <!-- HERO -->
+
+      <section class="hero-section">
+        <div id="heroImage" class="hero-image"></div>
+
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1 id="heroTitle" class="hero-title">Loading...</h1>
+
+            <p id="heroDescription" class="hero-description">
+              Loading featured video...
+            </p>
+
+            <div class="hero-buttons">
+              <button id="heroPlay" class="btn btn-primary">
+                <i class="fas fa-play"></i>
+                Watch Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LATEST -->
+
+      <section id="latest" class="section">
+        <div class="section-header">
+          <h2 class="section-title">Latest Videos</h2>
+
+          <span id="videoCount" class="video-count"> 0 videos </span>
+        </div>
+
+        <div id="videoGrid" class="video-grid"></div>
+      </section>
+
+      <!-- TRENDING -->
+
+      <section id="trending" class="section">
+        <div class="section-header">
+          <h2 class="section-title">Trending</h2>
+        </div>
+
+        <div id="trendingGrid" class="video-grid"></div>
+      </section>
+    </main>
+
+    <!-- RIGHT SIDEBAR -->
+
+    <aside class="sidebar-right">
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">Popular</h3>
+
+        <div id="popularList"></div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ================= CLIENT SCRIPT ================= -->
+
+  <script define:vars={{ videos }}>
+    console.log("🔥 HOME VIDEOS FROM ASTRO:", videos);
+
+    /* =====================================================
+       THUMBNAIL
+       Priority:
+       1. thumbnailUrl
+       2. Sanity image
+    ===================================================== */
+
+    function getSanityImageUrl(source) {
+      if (!source) {
+        return "";
+      }
+
+      const ref = source.asset?._ref;
+
+      if (!ref) {
+        return "";
+      }
+
+      const parts = ref.split("-");
+
+      const format = parts.pop();
+      const height = parts.pop();
+      const width = parts.pop();
+
+      const hash = parts.slice(1).join("-");
+
+      return (
+        `https://cdn.sanity.io/images/` +
+        `p3smjg3s/` +
+        `production/` +
+        `${hash}-${width}x${height}.${format}` +
+        `?auto=format&fit=crop&w=900&q=80`
+      );
+    }
+
+    function getThumbnail(video) {
+      if (typeof video.thumbnailUrl === "string" && video.thumbnailUrl.trim()) {
+        return video.thumbnailUrl.trim();
+      }
+
+      return getSanityImageUrl(video.thumbnail);
+    }
+
+    /* =====================================================
+       VIDEO PAGE URL
+    ===================================================== */
+
+    function getVideoPageUrl(video) {
+      return `/watch/${encodeURIComponent(video.slug || "")}`;
+    }
+
+    /* =====================================================
+       HTML ESCAPE
+    ===================================================== */
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    /* =====================================================
+       CSS URL ESCAPE
+    ===================================================== */
+
+    function escapeCssUrl(value) {
+      return String(value)
+        .replace(/\\/g, "\\\\")
+        .replace(/"/g, '\\"')
+        .replace(/\n/g, "")
+        .replace(/\r/g, "");
+    }
+
+    /* =====================================================
+       VIDEO CARD
+    ===================================================== */
+
+    function createVideoCard(video) {
+      const thumbnail = getThumbnail(video);
+
+      const card = document.createElement("article");
+
+      card.className = "video-card";
+
+      card.dataset.title = (video.title || "").toLowerCase();
+
+      /* Tags */
+
+      const tags = Array.isArray(video.tags) ? video.tags : [];
+
+      const tagsHtml = tags
+        .filter(Boolean)
+        .slice(0, 3)
+        .map(
+          (tag) => `
+            <span class="video-tag">
+              ${escapeHtml(tag)}
+            </span>
+          `,
+        )
+        .join("");
+
+      /* Rating */
+
+      const rating =
+        typeof video.rating === "number" ? video.rating.toFixed(1) : "N/A";
+
+      /* Card */
+
+      card.innerHTML = `
+        <div class="thumbnail">
+
+          ${
+            thumbnail
+              ? `
+                <img
+                  src="${escapeHtml(thumbnail)}"
+                  alt="${escapeHtml(video.title || "Video thumbnail")}"
+                  class="thumbnail-image"
+                  loading="lazy"
+                />
+              `
+              : `
+                <div class="thumbnail-placeholder">
+                  No Thumbnail
+                </div>
+              `
+          }
+
+          <div class="thumbnail-overlay">
+
+            <div class="play-icon">
+              <i class="fas fa-play"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="video-info">
+
+          <div class="video-title">
+            ${escapeHtml(video.title || "Untitled")}
+          </div>
+
+          <div class="video-meta">
+
+            <span class="video-category">
+              ${escapeHtml(video.category || "Video")}
+            </span>
+
+            <span class="rating">
+
+              <i class="fas fa-star"></i>
+
+              ${rating}
+
+            </span>
+
+          </div>
+
+          ${
+            tagsHtml
+              ? `
+                <div class="video-tags">
+                  ${tagsHtml}
+                </div>
+              `
+              : ""
+          }
+
+        </div>
+      `;
+
+      /* Open watch page */
+
+      card.addEventListener("click", () => {
+        window.location.href = getVideoPageUrl(video);
+      });
+
+      return card;
+    }
+
+    /* =====================================================
+       RENDER VIDEOS
+    ===================================================== */
+
+    function renderVideos(videoList) {
+      const grid = document.getElementById("videoGrid");
+
+      const trendingGrid = document.getElementById("trendingGrid");
+
+      grid.innerHTML = "";
+
+      trendingGrid.innerHTML = "";
+
+      /* Empty */
+
+      if (!videoList.length) {
+        grid.innerHTML = `
+          <div class="empty">
+            No videos found.
+          </div>
+        `;
+
+        document.getElementById("videoCount").textContent = "0 videos";
+
+        return;
+      }
+
+      /* Count */
+
+      document.getElementById("videoCount").textContent =
+        `${videoList.length} videos`;
+
+      /* Latest */
+
+      videoList.forEach((video) => {
+        grid.appendChild(createVideoCard(video));
+      });
+
+      /* Trending */
+
+      videoList.slice(0, 8).forEach((video) => {
+        trendingGrid.appendChild(createVideoCard(video));
+      });
+    }
+
+    /* =====================================================
+       HERO
+    ===================================================== */
+
+    function renderHero(videoList) {
+      if (!videoList.length) {
+        document.getElementById("heroTitle").textContent =
+          "No videos available";
+
+        document.getElementById("heroDescription").textContent = "";
+
+        return;
+      }
+
+      const featured =
+        videoList.find((video) => video.featured === true) || videoList[0];
+
+      const thumbnail = getThumbnail(featured);
+
+      if (thumbnail) {
+        document.getElementById("heroImage").style.backgroundImage =
+          `url("${escapeCssUrl(thumbnail)}")`;
+      }
+
+      document.getElementById("heroTitle").textContent =
+        featured.title || "Featured Video";
+
+      document.getElementById("heroDescription").textContent =
+        featured.description || "Watch this featured video.";
+
+      document.getElementById("heroPlay").onclick = () => {
+        window.location.href = getVideoPageUrl(featured);
+      };
+    }
+
+    /* =====================================================
+       POPULAR
+    ===================================================== */
+
+    function renderPopular(videoList) {
+      const list = document.getElementById("popularList");
+
+      list.innerHTML = "";
+
+      videoList.slice(0, 6).forEach((video) => {
+        const item = document.createElement("div");
+
+        item.className = "popular-item";
+
+        const thumbnail = getThumbnail(video);
+
+        const thumbnailStyle = thumbnail
+          ? `background-image:url("${escapeCssUrl(thumbnail)}");`
+          : "";
+
+        item.innerHTML = `
+            <div
+              class="popular-poster"
+              style="${thumbnailStyle}"
+            ></div>
+
+            <div class="popular-info">
+
+              <h4>
+                ${escapeHtml(video.title || "Untitled")}
+              </h4>
+
+              <p>
+                ${escapeHtml(video.category || "Video")}
+              </p>
+
+            </div>
+          `;
+
+        item.onclick = () => {
+          window.location.href = getVideoPageUrl(video);
+        };
+
+        list.appendChild(item);
+      });
+    }
+
+    /* =====================================================
+       CATEGORIES
+    ===================================================== */
+
+    function renderCategories(videoList) {
+      const container = document.getElementById("categoryMenu");
+
+      const categories = [
+        ...new Set(videoList.map((video) => video.category).filter(Boolean)),
+      ];
+
+      container.innerHTML = "";
+
+      categories.slice(0, 10).forEach((category) => {
+        const item = document.createElement("a");
+
+        item.className = "sidebar-item";
+
+        item.href = "#latest";
+
+        item.innerHTML = `
+            <i class="fas fa-film"></i>
+            ${escapeHtml(category)}
+          `;
+
+        item.onclick = (event) => {
+          event.preventDefault();
+
+          filterCategory(videoList, category);
+        };
+
+        container.appendChild(item);
+      });
+    }
+
+    /* =====================================================
+       CATEGORY FILTER
+    ===================================================== */
+
+    function filterCategory(videoList, category) {
+      const filtered = videoList.filter((video) => video.category === category);
+
+      renderVideos(filtered);
+
+      document.getElementById("latest").scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+
+    /* =====================================================
+       SEARCH
+    ===================================================== */
+
+    function setupSearch(videoList) {
+      const input = document.getElementById("searchInput");
+
+      input.addEventListener("input", function () {
+        const search = this.value.trim().toLowerCase();
+
+        /* Empty search */
+
+        if (!search) {
+          renderVideos(videoList);
+
+          return;
+        }
+
+        /* Search */
+
+        const filtered = videoList.filter((video) => {
+          const title = (video.title || "").toLowerCase();
+
+          const category = (video.category || "").toLowerCase();
+
+          const tags = Array.isArray(video.tags)
+            ? video.tags.join(" ").toLowerCase()
+            : "";
+
+          return (
+            title.includes(search) ||
+            category.includes(search) ||
+            tags.includes(search)
+          );
+        });
+
+        renderVideos(filtered);
+      });
+    }
+
+    /* =====================================================
+       INIT
+    ===================================================== */
+
+    function init() {
+      console.log("🔥 Rendering videos:", videos.length);
+
+      videos.forEach((video) => {
+        console.log(
+          "🎬 VIDEO:",
+          video.title,
+          "THUMBNAIL:",
+          getThumbnail(video),
+        );
+      });
+
+      renderVideos(videos);
+
+      renderHero(videos);
+
+      renderPopular(videos);
+
+      renderCategories(videos);
+
+      setupSearch(videos);
+    }
+
+    init();
+  </script>
+</Layout>
