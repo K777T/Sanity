@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow">
+    <title>Community Guidelines — ViralMMSVideo</title>
+    <link rel="stylesheet" href="/public/terms.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="nav-inner">
+            <button class="back-button" type="button" onclick="history.back()" aria-label="Go back" title="Go back">
+                <span aria-hidden="true">←</span>
+            </button>
+            <a href="/" class="brand">ViralMMSVideo</a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="/">Home</a>
+                <a href="/privacy">Privacy</a>
+                <a href="/dmca-policy">DMCA</a>
+                <a href="/terms">Terms</a>
+                <a href="/report-abuse">Report Abuse</a>
+                <a href="/content-safety">Content Safety</a>
+                <a href="/cookie-policy">Cookies</a>
+                <a href="/Community-Guidelines" class="active">Community Guidelines</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-shell">
+        <section class="page-header">
+            <div class="eyebrow">COMMUNITY STANDARDS</div>
+            <h1>Community Guidelines</h1>
+            <p class="page-description">
+                Standards for lawful, respectful, safe, and responsible use of ViralMMSVideo.
+            </p>
+            <div class="last-updated">Last Updated: August 20, 2026</div>
+        </section>
+
+        <div class="content-layout">
+            <aside class="toc-wrapper">
+                <div class="toc-card">
+                    <div class="toc-title">Table of Contents</div>
+                    <nav class="toc" aria-label="Table of Contents">
+                        <a href="#purpose">1. Purpose</a>
+                        <a href="#adults">2. Adults Only</a>
+                        <a href="#lawful">3. Lawful Use</a>
+                        <a href="#consent">4. Consent &amp; Privacy</a>
+                        <a href="#prohibited">5. Prohibited Content</a>
+                        <a href="#ai">6. AI &amp; Manipulated Material</a>
+                        <a href="#copyright">7. Copyright &amp; Rights</a>
+                        <a href="#respect">8. Respectful Conduct</a>
+                        <a href="#security">9. Security &amp; Abuse</a>
+                        <a href="#reporting">10. Reporting Violations</a>
+                        <a href="#moderation">11. Moderation &amp; Removal</a>
+                        <a href="#contact">12. Contact</a>
+                    </nav>
+                </div>
+            </aside>
+
+            <article class="policy-card">
+                <div class="notice">
+                    Please follow these guidelines when accessing or using ViralMMSVideo.
+                    They are intended to help protect users, affected individuals, and the
+                    Platform from unlawful or harmful activity.
+                </div>
+
+                <section id="purpose">
+                    <h2>1. Purpose</h2>
+                    <p>These Community Guidelines explain the standards expected when using
+                        ViralMMSVideo and describe categories of conduct and content that are not permitted.</p>
+                    <p>These Guidelines should be read together with our
+                        <a href="/terms.html">Terms &amp; Conditions</a>,
+                        <a href="/content-safety.html">Content Safety</a>,
+                        <a href="/privacy.html">Privacy Policy</a>, and
+                        <a href="/report-abuse.html">Report Abuse</a> page.
+                    </p>
+                    <p>ViralMMSVideo does not currently provide a general public upload function.
+                        Content displayed on the Platform may be collected, processed, reviewed,
+                        organized, or published through authorized processes and sources.</p>
+                </section>
+
+                <section id="adults">
+                    <h2>2. Adults Only</h2>
+                    <p>ViralMMSVideo is intended only for adults.</p>
+                    <p>You must be at least <strong>18 years old</strong>, or the age of majority
+                        applicable to you in your jurisdiction, whichever is higher, to access or use the Platform.</p>
+                    <p>You must not access or use the Platform if you are under the required age in your jurisdiction.
+                    </p>
+                    <p>Sexual content involving minors and material facilitating the sexual exploitation of minors are
+                        strictly prohibited.</p>
+                </section>
+
+                <section id="lawful">
+                    <h2>3. Lawful Use</h2>
+                    <p>Users must comply with applicable laws and must not use the Platform for unlawful purposes.</p>
+                    <p>Do not use ViralMMSVideo to facilitate, promote, organize, or participate in criminal or
+                        otherwise unlawful activity.</p>
+                    <p>Content or conduct that violates applicable law may be reported to appropriate authorities where
+                        legally required or appropriate.</p>
+                </section>
+
+                <section id="consent">
+                    <h2>4. Consent &amp; Privacy</h2>
+                    <p>Respect the privacy, consent, image, likeness, and other rights of people depicted in or affected
+                        by content.</p>
+                    <p>The following are not permitted:</p>
+                    <ul>
+                        <li>non-consensual intimate imagery;</li>
+                        <li>intimate material distributed without required consent;</li>
+                        <li>private or sensitive material published without authorization;</li>
+                        <li>unauthorized use of another person's likeness;</li>
+                        <li>impersonation or manipulated material used to harm or deceive a person; and</li>
+                        <li>other serious privacy violations.</li>
+                    </ul>
+                    <p>If you are affected by material that violates your privacy or consent, please use the
+                        <a href="/report-abuse.html">Report Abuse</a> process.
+                    </p>
+                </section>
+
+                <section id="prohibited">
+                    <h2>5. Prohibited Content</h2>
+                    <p>The following categories of material are prohibited:</p>
+                    <ul>
+                        <li>child sexual abuse material (CSAM);</li>
+                        <li>sexual content involving minors;</li>
+                        <li>sexual exploitation of minors;</li>
+                        <li>trafficking or exploitation;</li>
+                        <li>non-consensual intimate imagery;</li>
+                        <li>unlawful sexual deepfakes or synthetic intimate material;</li>
+                        <li>unlawful privacy violations;</li>
+                        <li>content facilitating criminal activity;</li>
+                        <li>malware, phishing, fraud, or malicious software;</li>
+                        <li>unlawfully obtained personal information; and</li>
+                        <li>other material prohibited by applicable law.</li>
+                    </ul>
+                    <p>Credible reports involving prohibited material may result in removal,
+                        restriction, investigation, or other appropriate action.</p>
+                </section>
+
+                <section id="ai">
+                    <h2>6. AI-Generated &amp; Manipulated Material</h2>
+                    <p>Digital editing, synthetic media, and artificial-intelligence technologies
+                        may be used to create or modify material.</p>
+                    <p>Technology does not make otherwise unlawful material acceptable.
+                        Unlawful synthetic material, including material depicting minors or unlawful
+                        non-consensual intimate imagery, is prohibited.</p>
+                    <p>If manipulated material depicts you without appropriate authorization or consent,
+                        report it promptly through the <a href="/report-abuse.html">Report Abuse</a> process.</p>
+                </section>
+
+                <section id="copyright">
+                    <h2>7. Copyright &amp; Rights</h2>
+                    <p>Respect intellectual-property rights. Do not knowingly submit, distribute,
+                        or facilitate unauthorized use of copyrighted material.</p>
+                    <p>Copyright owners or authorized representatives may submit complaints to:</p>
+                    <p><a href="mailto:dmca@viralmmsvideo.dpdns.org"><strong>dmca@viralmmsvideo.dpdns.org</strong></a>
+                    </p>
+                    <p>Copyright complaints should identify the protected work, the relevant material
+                        and URL, and enough information to evaluate the claim.</p>
+                </section>
+
+                <section id="respect">
+                    <h2>8. Respectful Conduct</h2>
+                    <p>Users should communicate and interact responsibly.</p>
+                    <p>Do not use the Platform to threaten, harass, intimidate, stalk, impersonate,
+                        defraud, or deliberately target people with harmful conduct.</p>
+                    <p>Good-faith criticism and lawful disagreement are not, by themselves, violations of these
+                        Guidelines.</p>
+                </section>
+
+                <section id="security">
+                    <h2>9. Security &amp; Abuse</h2>
+                    <p>Do not attempt to compromise the security, availability, or integrity of the Platform.</p>
+                    <ul>
+                        <li>Do not deploy malware or malicious software.</li>
+                        <li>Do not conduct phishing or fraudulent activity.</li>
+                        <li>Do not attempt unauthorized access to systems or accounts.</li>
+                        <li>Do not intentionally interfere with Platform operations.</li>
+                        <li>Do not use automated activity to abuse or disrupt the service.</li>
+                    </ul>
+                    <p>Security concerns should be reported promptly so they can be investigated and addressed where
+                        appropriate.</p>
+                </section>
+
+                <section id="reporting">
+                    <h2>10. Reporting Violations</h2>
+                    <p>If you believe material or conduct violates these Guidelines, applicable law,
+                        privacy rights, consent requirements, or our other policies, please report it.</p>
+                    <p>A useful report should include:</p>
+                    <ol>
+                        <li>the exact URL or other identifying information;</li>
+                        <li>a clear description of the problem;</li>
+                        <li>the reason you believe it violates a policy or law; and</li>
+                        <li>enough information for us to evaluate the report.</li>
+                    </ol>
+                    <p>Use our <a href="/report-abuse.html">Report Abuse</a> page for reporting instructions.</p>
+                    <p>For privacy, NCII, minor-safety, or other potentially unlawful-content complaints,
+                        clearly mark the subject: <strong>URGENT — CONTENT REMOVAL REQUEST</strong></p>
+                </section>
+
+                <section id="moderation">
+                    <h2>11. Moderation &amp; Removal</h2>
+                    <p>Where permitted or required by applicable law, we may:</p>
+                    <ul>
+                        <li>remove or disable access to content;</li>
+                        <li>correct inaccurate information;</li>
+                        <li>restrict access to particular material;</li>
+                        <li>prevent material from being republished;</li>
+                        <li>investigate complaints;</li>
+                        <li>use technical measures to identify previously reported material;</li>
+                        <li>preserve information where legally required; and</li>
+                        <li>cooperate with lawful requests from courts or competent authorities.</li>
+                    </ul>
+                    <p>Automated systems may assist with content discovery, categorization,
+                        moderation, or publication, but automated systems can make mistakes.
+                        We do not guarantee that every potentially problematic item will be detected before publication.
+                    </p>
+                    <p>Good-faith reports may be reviewed and may result in correction, restriction,
+                        removal, or other appropriate action.</p>
+                </section>
+
+                <section id="contact">
+                    <h2>12. Contact</h2>
+                    <h3>General / Privacy / Community Reports</h3>
+                    <p><a
+                            href="mailto:support@viralmmsvideo.dpdns.org"><strong>support@viralmmsvideo.dpdns.org</strong></a>
+                    </p>
+                    <h3>Copyright Reports</h3>
+                    <p><a href="mailto:dmca@viralmmsvideo.dpdns.org"><strong>dmca@viralmmsvideo.dpdns.org</strong></a>
+                    </p>
+                    <p>Please include the relevant URL and a clear explanation of the issue.</p>
+                    <div class="notice">
+                        These Community Guidelines are a general description of Platform standards
+                        and procedures. Applicable laws and requirements may vary by jurisdiction and may change over
+                        time.
+                    </div>
+                </section>
+
+                <footer class="policy-footer">
+                    <p>© 2026 ViralMMSVideo. All rights reserved.</p>
+                    <nav class="footer-links">
+                        <a href="/privacy.html">Privacy Policy</a>
+                        <a href="/dmca-policy.html">DMCA Policy</a>
+                        <a href="/terms.html">Terms &amp; Conditions</a>
+                        <a href="/report-abuse.html">Report Abuse</a>
+                        <a href="/content-safety.html">Content Safety</a>
+                        <a href="/cookie-policy.html">Cookie Policy</a>
+                        <a href="/Community-Guidelines.html">Community Guidelines</a>
+                    </nav>
+                </footer>
+            </article>
+        </div>
+    </main>
+
+    <button class="top-button" type="button" aria-label="Back to top" title="Back to top"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+</body>
+
+</html>

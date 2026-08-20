@@ -42,7 +42,7 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-Deploy commands are below 
+Deploy commands are below
 
 Haan 👍 **tum sahi yaad kar rahe ho** — Sanity mein 2 alag concepts hain, aur unko mix nahi karna chahiye.
 
@@ -100,10 +100,34 @@ sanity dataset export/import
 
 **Lekin ek clarification:** agar tum “Sanity ki production deploy” se **production dataset/schema ko initialize ya migrate karna** mean kar rahe ho, mujhe tumhara `sanity.cli.ts` / `sanity.config.ts` aur current datasets (`development`, `production`) ka setup dikha do. Main exact commands bata dunga, taaki galti se production content overwrite na ho.
 
+npm run build
+
+use this command to build package.json and then push to main branch if u want to deploy the chngesni browser and remembed to use cdn set as false if u want to see changes really fast and then deisable it in production
+
+hmne ye build kiya algolia search using
+
+npm install algoliasearch
+we created new file in scripts/index-videos.ts
+
+Sabse simple option agar tumhare Astro project mein tsx nahi hai:
+
+npm install -D tsx
+
+Phir:
+
+explicitly load karni hogi.
+
+Step 1 — dotenv install karo
+
+Terminal mein:
+
+npm install dotenv
+
+npx tsx scripts/index-videos.ts
+
+Expected output:
 
 
-
-
-npm run build 
-
-use this command to build package.json and then push to main branch if u want to deploy the chngesni browser and remembed to use cdn set as false if u want to see changes really fast and then deisable it in production 
+Found 25 videos in Sanity.
+✅ Successfully indexed 25 videos into Algolia index "videos".
+Step 4 — Algolia Dashboard check

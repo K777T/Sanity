@@ -5,4 +5,6 @@ export const sanityClient = createClient({
   dataset: "production",
   apiVersion: "2026-01-01",
   useCdn: true,
+  // useCdn: false,
+
 });

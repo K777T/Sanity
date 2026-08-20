@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Content Safety — ViralMMSVideo</title>
+  <link rel="stylesheet" href="/public/terms.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <button class="back-button" type="button" onclick="history.back()" aria-label="Go back" title="Go back"><span aria-hidden="true">←</span></button>
+      <a href="/" class="brand">ViralMMSVideo</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/">Home</a><a href="/privacy.html">Privacy</a><a href="/dmca-policy.html">DMCA</a><a href="/terms.html">Terms</a><a href="/report-abuse.html">Report Abuse</a><a href="/content-safety.html" class="active">Content Safety</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-header">
+      <div class="eyebrow">SAFETY &amp; CONTENT POLICY</div>
+      <h1>Content Safety</h1>
+      <p class="page-description">Our standards for lawful content, privacy, consent, age restrictions, prohibited material, and content reporting.</p>
+      <div class="last-updated">Last Updated: August 20, 2026</div>
+    </section>
+
+    <div class="content-layout">
+      <aside class="toc-wrapper">
+        <div class="toc-card">
+          <div class="toc-title">Content Safety</div>
+          <nav class="toc" aria-label="Content Safety navigation">
+            <a href="#purpose">1. Purpose</a><a href="#adults">2. Adults Only</a><a href="#consent">3. Consent &amp; Privacy</a><a href="#prohibited">4. Prohibited Content</a><a href="#ai">5. AI &amp; Manipulated Content</a><a href="#copyright">6. Copyright</a><a href="#reporting">7. Reporting</a><a href="#moderation">8. Moderation &amp; Removal</a><a href="#repeat">9. Reappearing Content</a><a href="#contact">10. Contact</a>
+          </nav>
+        </div>
+      </aside>
+
+      <article class="policy-card">
+        <div class="notice">ViralMMSVideo aims to prohibit unlawful material, take credible complaints seriously, and remove or restrict material when appropriate or required by applicable law.</div>
+
+        <section id="purpose">
+          <h2>1. Purpose</h2>
+          <p>This Content Safety policy explains the standards and procedures used to address potentially unlawful, unauthorized, unsafe, or privacy-violating material on ViralMMSVideo.</p>
+          <p>This policy should be read together with our <a href="/terms.html">Terms &amp; Conditions</a>, <a href="/privacy.html">Privacy Policy</a>, and <a href="/dmca-policy.html">DMCA Policy</a>.</p>
+          <p>Content may be discovered, processed, organized, or published using manual processes, automated tools, publicly accessible sources, third-party sources, licensed sources, or other lawful methods.</p>
+        </section>
+
+        <section id="adults">
+          <h2>2. Adults Only</h2>
+          <p>ViralMMSVideo is intended only for adults.</p>
+          <p>You must be at least <strong>18 years old</strong>, or the age of majority applicable to you in your jurisdiction, whichever is higher, to access or use the Platform.</p>
+          <p>We do not permit sexual content involving minors or material that facilitates the sexual exploitation of minors.</p>
+          <p>If you believe material involving a minor is present on the Platform, report it immediately through the appropriate reporting channel.</p>
+        </section>
+
+        <section id="consent">
+          <h2>3. Consent &amp; Privacy</h2>
+          <p>Content should have a lawful basis for publication and should not unlawfully violate another person's privacy, consent, image, likeness, or other rights.</p>
+          <p>We prohibit or may remove material that includes:</p>
+          <ul><li>non-consensual intimate imagery;</li><li>intimate material distributed without required consent;</li><li>private or sensitive material published without authorization;</li><li>unauthorized use of a person's likeness;</li><li>impersonation or manipulated material depicting a person without appropriate authorization; and</li><li>other serious privacy violations.</li></ul>
+          <p>If content depicts you or contains your private or intimate material without appropriate consent, contact:</p>
+          <p><a href="mailto:support@viralmmsvideo.dpdns.org"><strong>support@viralmmsvideo.dpdns.org</strong></a></p>
+        </section>
+
+        <section id="prohibited">
+          <h2>4. Prohibited Content</h2>
+          <p>The Platform does not permit unlawful content, including:</p>
+          <ul><li>child sexual abuse material (CSAM);</li><li>sexual content involving minors;</li><li>sexual exploitation of minors;</li><li>trafficking or exploitation;</li><li>non-consensual intimate imagery;</li><li>sexual material distributed without required consent;</li><li>unlawful privacy violations;</li><li>unlawful sexual deepfakes or synthetic intimate material;</li><li>content depicting or facilitating sexual exploitation;</li><li>material intended to facilitate criminal activity;</li><li>malware, phishing, fraud, or malicious software;</li><li>unlawfully obtained personal information; and</li><li>other material prohibited by applicable law.</li></ul>
+          <p>If prohibited material is identified or credibly reported, we may remove or restrict it and may take additional action where required or appropriate.</p>
+        </section>
+
+        <section id="ai">
+          <h2>5. AI-Generated &amp; Manipulated Content</h2>
+          <p>Material may be digitally edited, altered, synthesized, or generated using automated or artificial-intelligence technologies.</p>
+          <p>The use of AI or other technology does not automatically make material lawful.</p>
+          <p>We prohibit unlawful synthetic material, including material depicting minors and unlawful non-consensual intimate imagery.</p>
+          <p>If manipulated or synthetic material depicting you has been published without appropriate authorization or consent, report it to <a href="mailto:support@viralmmsvideo.dpdns.org"><strong>support@viralmmsvideo.dpdns.org</strong></a>.</p>
+        </section>
+
+        <section id="copyright">
+          <h2>6. Copyright &amp; Rights</h2>
+          <p>The existence of material on a third-party website does not necessarily mean that its reproduction, redistribution, or publication elsewhere is authorized.</p>
+          <p>Copyright owners or authorized representatives who believe material has been used without authorization may submit a complaint to <a href="mailto:dmca@viralmmsvideo.dpdns.org"><strong>dmca@viralmmsvideo.dpdns.org</strong></a>.</p>
+        </section>
+
+        <section id="reporting">
+          <h2>7. Reporting Safety Issues</h2>
+          <p>If you believe content on ViralMMSVideo is unlawful, unauthorized, incorrectly published, or otherwise unsafe, please report it.</p>
+          <p>A useful report should include:</p>
+          <ol><li>the exact URL of the relevant content;</li><li>a clear explanation of the safety or legal concern;</li><li>your relationship to the material, where relevant; and</li><li>enough information for us to identify and evaluate the complaint.</li></ol>
+          <p>You do not need to prove your entire legal case before making a good-faith report.</p>
+          <p>Use our <a href="/report-abuse.html">Report Abuse</a> page for reporting instructions.</p>
+        </section>
+
+        <section id="moderation">
+          <h2>8. Moderation &amp; Removal</h2>
+          <p>Where permitted or required by applicable law, we may:</p>
+          <ul><li>remove or disable access to content;</li><li>correct inaccurate information;</li><li>restrict access to particular material;</li><li>prevent material from being republished;</li><li>use technical measures to identify previously reported material;</li><li>investigate complaints;</li><li>preserve information where legally required; and</li><li>cooperate with lawful requests from courts or competent authorities.</li></ul>
+          <p>Automated systems may assist with content discovery, processing, categorization, metadata, moderation, or publication. Automated systems can make mistakes, and we do not guarantee that every potentially problematic item will be detected before publication.</p>
+        </section>
+
+        <section id="repeat">
+          <h2>9. Reappearing Content</h2>
+          <p>Substantially identical, modified, mirrored, or newly sourced copies of previously reported material may appear.</p>
+          <p>Where technically and legally appropriate, we may use hashes, identifiers, URLs, metadata, automated detection, or other measures to help identify previously reported material.</p>
+          <p>If material you previously reported appears again, provide the new URL or other identifying information so that we can investigate it.</p>
+        </section>
+
+        <section id="contact">
+          <h2>10. Contact</h2>
+          <h3>General / Privacy / Safety Reports</h3>
+          <p><a href="mailto:support@viralmmsvideo.dpdns.org"><strong>support@viralmmsvideo.dpdns.org</strong></a></p>
+          <h3>Copyright Reports</h3>
+          <p><a href="mailto:dmca@viralmmsvideo.dpdns.org"><strong>dmca@viralmmsvideo.dpdns.org</strong></a></p>
+          <p>For urgent privacy, NCII, minor-safety, or other potentially unlawful-content complaints, clearly mark the subject:</p>
+          <p><strong>URGENT — CONTENT REMOVAL REQUEST</strong></p>
+          <div class="notice">This policy is a general description of content-safety practices and does not guarantee that the Platform complies with every law in every jurisdiction. Applicable laws may differ and may change over time.</div>
+        </section>
+
+        <footer class="policy-footer">
+          <p>© 2026 ViralMMSVideo. All rights reserved.</p>
+          <nav class="footer-links"><a href="/privacy">Privacy Policy</a><a href="/dmca-policy">DMCA Policy</a><a href="/terms">Terms &amp; Conditions</a><a href="/report-abuse">Report Abuse</a><a href="/content-safety">Content Safety</a></nav>
+        </footer>
+      </article>
+    </div>
+  </main>
+
+  <button class="top-button" type="button" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+</body>
+</html>

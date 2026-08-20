@@ -2,7 +2,6 @@
 import Layout from "../layouts/Layout.astro";
 import { getVideos } from "../lib/queries";
 
-
 const videos = await getVideos();
 
 console.log("🔥 HOME VIDEOS:", videos.length);
@@ -615,17 +614,17 @@ console.log("🔥 HOME VIDEO DATA:", videos);
       <div class="sidebar-section">
         <h3 class="sidebar-title">General</h3>
 
-        <a class="sidebar-item" href="#">
+        <a class="sidebar-item" href="/terms.html">
           <i class="fas fa-file-contract"></i>
           Terms
         </a>
 
-        <a class="sidebar-item" href="#">
+        <a class="sidebar-item" href="/privacy.html">
           <i class="fas fa-shield-alt"></i>
           Privacy
         </a>
 
-        <a class="sidebar-item" href="#">
+        <a class="sidebar-item" href="/dmca-policy.html">
           <i class="fas fa-envelope"></i>
           DMCA
         </a>
@@ -694,7 +693,15 @@ console.log("🔥 HOME VIDEO DATA:", videos);
 
   <!-- ================= CLIENT SCRIPT ================= -->
 
-  <script define:vars={{ videos }}>
+  <script
+    define:vars={{
+      videos,
+      algoliaAppId: import.meta.env.PUBLIC_ALGOLIA_APP_ID,
+      algoliaSearchApiKey: import.meta.env.PUBLIC_ALGOLIA_SEARCH_API_KEY,
+    }}
+  >
+    console.log("🔑 Algolia App ID:", algoliaAppId);
+    console.log("🔑 Search API Key exists:", !!algoliaSearchApiKey);
     console.log("🔥 HOME VIDEOS FROM ASTRO:", videos);
 
     /* =====================================================
@@ -900,10 +907,12 @@ console.log("🔥 HOME VIDEO DATA:", videos);
 
       if (!videoList.length) {
         grid.innerHTML = `
-          <div class="empty">
-            No videos found.
-          </div>
-        `;
+    <div class="empty">
+      No videos found.
+    </div>
+  `;
+
+        trendingGrid.innerHTML = "";
 
         document.getElementById("videoCount").textContent = "0 videos";
 
@@ -1060,46 +1069,84 @@ console.log("🔥 HOME VIDEO DATA:", videos);
     }
 
     /* =====================================================
-       SEARCH
-    ===================================================== */
+   SEARCH
+===================================================== */
 
     function setupSearch(videoList) {
       const input = document.getElementById("searchInput");
 
+      let searchTimeout = null;
+      let searchRequestId = 0;
+
       input.addEventListener("input", function () {
-        const search = this.value.trim().toLowerCase();
+        const search = this.value.trim();
 
-        /* Empty search */
+        clearTimeout(searchTimeout);
 
+        // Search empty -> original videos
         if (!search) {
+          searchRequestId++;
           renderVideos(videoList);
-
           return;
         }
 
-        /* Search */
+        searchTimeout = setTimeout(async () => {
+          const requestId = ++searchRequestId;
 
-        const filtered = videoList.filter((video) => {
-          const title = (video.title || "").toLowerCase();
+          try {
+            console.log("🔎 Searching Algolia for:", search);
 
-          const category = (video.category || "").toLowerCase();
+            const response = await fetch(
+              `https://${algoliaAppId}-dsn.algolia.net/1/indexes/videos/query`,
+              {
+                method: "POST",
 
-          const tags = Array.isArray(video.tags)
-            ? video.tags.join(" ").toLowerCase()
-            : "";
+                headers: {
+                  "Content-Type": "application/json",
+                  "X-Algolia-Application-Id": algoliaAppId,
+                  "X-Algolia-API-Key": algoliaSearchApiKey,
+                },
 
-          return (
-            title.includes(search) ||
-            category.includes(search) ||
-            tags.includes(search)
-          );
-        });
+                body: JSON.stringify({
+                  query: search,
+                  hitsPerPage: 50,
+                }),
+              },
+            );
 
-        renderVideos(filtered);
+            if (!response.ok) {
+              throw new Error(`Algolia HTTP ${response.status}`);
+            }
+
+            const data = await response.json();
+
+            console.log("🔎 Algolia query:", search);
+            console.log("🔎 Algolia nbHits:", data.nbHits);
+            console.log("🔎 Algolia hits:", data.hits);
+
+            // Agar user ne meanwhile doosra search kar diya
+            if (requestId !== searchRequestId) {
+              console.log("⏭️ Ignoring old search:", search);
+              return;
+            }
+
+            const results = Array.isArray(data.hits) ? data.hits : [];
+
+            console.log("🎯 Rendering search results:", results);
+
+            renderVideos(results);
+          } catch (error) {
+            console.error("❌ Algolia search error:", error);
+
+            if (requestId !== searchRequestId) {
+              return;
+            }
+
+            renderVideos([]);
+          }
+        }, 300);
       });
-    }
-
-    /* =====================================================
+    } /* =====================================================
        INIT
     ===================================================== */
 

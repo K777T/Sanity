@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NCII Privacy Policy - Privacy and protection against non-consensual intimate imagery.">
+  <title>NCII Privacy Policy</title>
+
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #4f46e5;
+      --border: #e5e7eb;
+      --danger: #b91c1c;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 48px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin: 0;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: var(--card);
+      padding: 28px;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #111827;
+    }
+
+    h3 {
+      margin-bottom: 8px;
+    }
+
+    .notice {
+      border-left: 4px solid var(--danger);
+      background: #fef2f2;
+      padding: 16px;
+      margin: 20px 0;
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .updated {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>NCII Privacy Policy</h1>
+    <p>Privacy, safety, and protection from non-consensual intimate imagery</p>
+  </header>
+
+  <main>
+
+    <section>
+      <p class="updated">Last updated: August 20, 2026</p>
+
+      <p>
+        This Privacy Policy explains how <strong>ViralMMSVideo</strong>
+        handles personal information and reports involving non-consensual intimate imagery
+        (NCII).
+      </p>
+
+      <div class="notice">
+        <strong>Important:</strong>
+        We do not permit the creation, upload, distribution, sharing, or promotion of
+        intimate images or videos without the consent of the person depicted.
+      </div>
+    </section>
+
+    <section>
+      <h2>1. What Is NCII?</h2>
+
+      <p>
+        Non-consensual intimate imagery (NCII), sometimes referred to as
+        intimate-image abuse, is intimate or sexually explicit content shared,
+        published, or distributed without the consent of the person depicted.
+      </p>
+
+      <p>
+        This may include photographs, videos, manipulated or altered media,
+        or other intimate content where the person has not consented to its
+        distribution.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Our Privacy Principles</h2>
+
+      <p>We aim to:</p>
+
+      <ul>
+        <li>Protect the privacy and dignity of individuals.</li>
+        <li>Prevent the distribution of NCII through our services.</li>
+        <li>Handle reports confidentially where reasonably possible.</li>
+        <li>Collect only information reasonably necessary to investigate reports.</li>
+        <li>Restrict access to sensitive information to authorized personnel.</li>
+        <li>Take appropriate action when content violates our policies or applicable law.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Information We May Collect</h2>
+
+      <p>
+        When you submit an NCII report, we may collect information necessary
+        to review and respond to the report, such as:
+      </p>
+
+      <ul>
+        <li>Your name or contact information, if you choose to provide it.</li>
+        <li>Information about the reported content.</li>
+        <li>URLs or other references identifying the content.</li>
+        <li>The reason for your report.</li>
+        <li>Information needed to verify ownership, identity, or consent when appropriate.</li>
+        <li>Technical information associated with the submission, such as timestamps and security logs.</li>
+      </ul>
+
+      <p>
+        You should avoid submitting unnecessary sensitive personal information.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. How We Use Report Information</h2>
+
+      <p>Information submitted in an NCII report may be used to:</p>
+
+      <ul>
+        <li>Review and investigate the report.</li>
+        <li>Identify and remove prohibited content.</li>
+        <li>Prevent repeated abuse or re-uploading of prohibited material.</li>
+        <li>Communicate with the reporter when necessary.</li>
+        <li>Protect users and the security of our services.</li>
+        <li>Comply with legal obligations and valid legal requests.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Confidentiality</h2>
+
+      <p>
+        We treat NCII reports and related information as sensitive. Access is
+        limited to personnel or service providers who need the information to
+        perform legitimate safety, security, moderation, legal, or support
+        functions.
+      </p>
+
+      <p>
+        We may disclose information when required by law, necessary to respond
+        to a valid legal process, or reasonably necessary to protect users,
+        prevent abuse, or protect our rights and services.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Removal Requests</h2>
+
+      <p>
+        If intimate imagery depicting you has been shared without your consent,
+        you may submit a removal request through our designated reporting
+        process.
+      </p>
+
+      <p>
+        <strong>NCII reporting:</strong>
+        <a href="[NCII_REPORT_URL]">Submit an NCII Removal Request</a>
+      </p>
+
+      <p>
+        Please provide enough information for us to locate the material.
+        Do not send additional intimate material unless it is specifically
+        required by the reporting process.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Data Retention</h2>
+
+      <p>
+        We retain information only for as long as reasonably necessary for the
+        purposes described in this policy, including investigation, abuse
+        prevention, security, dispute resolution, and legal compliance.
+      </p>
+
+      <p>
+        Retention periods may vary depending on the nature of the report,
+        applicable law, and legitimate safety or security requirements.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Security</h2>
+
+      <p>
+        We use reasonable administrative, technical, and organizational
+        safeguards designed to protect sensitive information from unauthorized
+        access, disclosure, alteration, or destruction.
+      </p>
+
+      <p>
+        No online service can guarantee absolute security, but we continuously
+        work to reduce risks associated with sensitive information.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Your Privacy Rights</h2>
+
+      <p>
+        Depending on your location and applicable law, you may have rights
+        relating to your personal information, including rights to access,
+        correction, deletion, restriction, or objection to certain processing.
+      </p>
+
+      <p>
+        To exercise an applicable privacy right, contact us using the details
+        below.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Children and Minors</h2>
+
+      <p>
+        We take reports involving minors extremely seriously. Content depicting
+        or appearing to depict a minor in sexual or exploitative circumstances
+        may be subject to additional legal and safety procedures.
+      </p>
+
+      <p>
+        Do not upload, forward, or otherwise distribute suspected child sexual
+        abuse material. Use the appropriate reporting channels available in
+        your jurisdiction.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Third-Party Services</h2>
+
+      <p>
+        We may use trusted service providers for hosting, security, abuse
+        prevention, customer support, and other operational purposes. Such
+        providers may process information only as necessary to provide their
+        services and subject to appropriate contractual or legal safeguards.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Changes to This Policy</h2>
+
+      <p>
+        We may update this Privacy Policy from time to time. When we make
+        material changes, we may update the date shown at the top of this page
+        and provide additional notice where required.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Contact Us</h2>
+
+      <p>
+        For privacy questions, NCII removal requests, or concerns about the
+        handling of personal information, contact:
+      </p>
+
+      <p>
+        <strong>ViralMMSVideo</strong><br>
+        Privacy Team<br>
+        Email:
+        <a href="mailto:[PRIVACY_EMAIL]">[PRIVACY_EMAIL]</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2026 ViralMMSVideo. All rights reserved.
+  </footer>
+
+</body>
+</html>

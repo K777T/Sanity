@@ -1,0 +1,889 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+
+  <title>Terms &amp; Conditions — ViralMMSVideo</title>
+
+  <link rel="stylesheet" href="/public/terms.css">
+</head>
+
+<body>
+
+  <!-- Fixed Navigation -->
+  <header class="site-header">
+    <div class="nav-inner">
+
+      <button class="back-button" type="button" onclick="history.back()" aria-label="Go back" title="Go back">
+        <span aria-hidden="true">←</span>
+      </button>
+
+      <a href="/" class="brand">ViralMMSVideo</a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/dmca-policy.html">DMCA</a>
+        <a href="/terms.html" class="active">Terms</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main class="page-shell">
+
+    <!-- Page Header -->
+    <section class="page-header">
+
+      <div class="eyebrow">LEGAL DOCUMENT</div>
+
+      <h1>Terms &amp; Conditions</h1>
+
+      <p class="page-description">
+        Terms of Use, Content Policy, Copyright &amp; Removal Policy
+      </p>
+
+      <div class="last-updated">
+        Last Updated: August 18, 2026
+      </div>
+
+    </section>
+
+
+    <div class="content-layout">
+
+      <!-- Table of Contents -->
+      <aside class="toc-wrapper">
+
+        <div class="toc-card">
+
+          <div class="toc-title">
+            Table of Contents
+          </div>
+
+          <nav class="toc" aria-label="Table of Contents">
+
+            <a href="#section-1">1. Adults Only</a>
+            <a href="#section-2">2. Nature of the Platform</a>
+            <a href="#section-3">3. Content Complaints and Corrections</a>
+            <a href="#section-4">4. Copyright Complaints</a>
+            <a href="#section-5">5. Privacy and NCII Complaints</a>
+            <a href="#section-6">6. Prohibited Content</a>
+            <a href="#section-7">7. Consent and Rights</a>
+            <a href="#section-8">8. AI-Generated or Manipulated Material</a>
+            <a href="#section-9">9. Automated Tools and Errors</a>
+            <a href="#section-10">10. Removal and Moderation</a>
+            <a href="#section-11">11. Public Display and Uploader Information</a>
+            <a href="#section-12">12. Third-Party Sources</a>
+            <a href="#section-13">13. Repeat or Reappearing Material</a>
+            <a href="#section-14">14. Copyright Counter-Notices</a>
+            <a href="#section-15">15. Legal Requests and Law Enforcement</a>
+            <a href="#section-16">16. Platform Availability</a>
+            <a href="#section-17">17. Security</a>
+            <a href="#section-18">18. No Warranty</a>
+            <a href="#section-19">19. Limitation of Liability</a>
+            <a href="#section-20">20. Indemnification</a>
+            <a href="#section-21">21. Applicable Law and Jurisdiction</a>
+            <a href="#section-22">22. Privacy</a>
+            <a href="#section-23">23. Changes to These Terms</a>
+            <a href="#section-24">24. Contact Information</a>
+            <a href="#section-25">25. Good-Faith Reporting</a>
+            <a href="#section-26">26. Important Notice</a>
+
+          </nav>
+
+        </div>
+
+      </aside>
+
+
+      <!-- Main Policy -->
+      <article class="policy-card">
+
+        <div class="notice">
+          Please read these Terms carefully before using ViralMMSVideo.
+        </div>
+
+        <p>
+          Welcome to <strong>ViralMMSVideo</strong> (“ViralMMSVideo,”
+          “Platform,” “we,” “us,” or “our”).
+        </p>
+
+        <p>
+          These Terms of Use govern your access to and use of the Platform.
+          By accessing or using ViralMMSVideo, you acknowledge that you have
+          read and understood these Terms and agree to comply with them and
+          with applicable law.
+        </p>
+
+        <p>
+          These Terms are intended to explain the Platform's rules, content
+          standards, and reporting procedures. They do not guarantee immunity
+          from liability, enforcement, jurisdiction, or legal claims.
+        </p>
+
+
+        <section id="section-1">
+          <h2>1. Adults Only</h2>
+
+          <p>ViralMMSVideo is intended only for adults.</p>
+
+          <p>
+            You must be at least <strong>18 years old</strong>, or the age
+            of majority applicable to you in your jurisdiction, whichever
+            is higher, to access or use the Platform.
+          </p>
+
+          <p>By using the Platform, you represent that:</p>
+
+          <ul>
+            <li>you are legally permitted to access adult material in your jurisdiction;</li>
+            <li>you are at least 18 years old;</li>
+            <li>you will comply with applicable laws; and</li>
+            <li>you will not use the Platform for any unlawful purpose.</li>
+          </ul>
+
+          <p>If you are under 18, you must not access or use the Platform.</p>
+        </section>
+
+
+        <section id="section-2">
+          <h2>2. Nature of the Platform</h2>
+
+          <p>
+            ViralMMSVideo is a website operated and managed by the Platform
+            operator and its authorized personnel.
+          </p>
+
+          <p>
+            <strong>
+              The Platform does not currently provide a general public upload
+              function.
+            </strong>
+            Ordinary visitors are not authorized to upload videos,
+            photographs, or other content to the Platform.
+          </p>
+
+          <p>
+            Content displayed on the Platform may be collected, processed,
+            reviewed, organized, or published by the Platform operator and
+            authorized personnel using manual processes, automated tools,
+            software, publicly accessible sources, third-party sources,
+            licensed sources, or other lawful methods.
+          </p>
+
+          <p>
+            Automated tools may be used to assist with content discovery,
+            processing, categorization, metadata collection, or publication.
+            Automated processes may occasionally result in errors.
+          </p>
+
+          <p>
+            The Platform does not represent that every item of content is
+            necessarily free from error or that every item has been
+            independently verified in every respect before publication.
+          </p>
+        </section>
+
+
+        <section id="section-3">
+          <h2>3. Content Complaints and Corrections</h2>
+
+          <p>We recognize that mistakes can occur.</p>
+
+          <p>
+            If you believe that content displayed on ViralMMSVideo:
+          </p>
+
+          <ul>
+            <li>infringes your copyright;</li>
+            <li>violates your privacy;</li>
+            <li>contains your image or likeness without appropriate authorization;</li>
+            <li>constitutes non-consensual intimate imagery;</li>
+            <li>was published without required consent;</li>
+            <li>contains inaccurate or misleading information;</li>
+            <li>should not be publicly available for a lawful reason; or</li>
+            <li>otherwise violates applicable law,</li>
+          </ul>
+
+          <p>
+            please contact us through the appropriate reporting channel.
+          </p>
+
+          <p>
+            Please provide enough information for us to identify and evaluate
+            the material, including the relevant page or content URL and a
+            clear explanation of the issue.
+          </p>
+
+          <p>
+            <strong>
+              If we determine that content should not remain available,
+              we may remove, restrict, disable, or otherwise modify access
+              to it.
+            </strong>
+          </p>
+
+          <p>
+            We encourage affected persons to contact us directly rather than
+            relying on third parties to make a report on their behalf.
+          </p>
+        </section>
+
+
+        <section id="section-4">
+          <h2>4. Copyright Complaints</h2>
+
+          <p>
+            If you are a copyright owner or an authorized representative and
+            believe that copyrighted material has been used on the Platform
+            without authorization, you may submit a copyright complaint to:
+          </p>
+
+          <p>
+            <a href="mailto:dmca@viralmmsvideo.dpdns.org">
+              <strong>dmca@viralmmsvideo.dpdns.org</strong>
+            </a>
+          </p>
+
+          <p>
+            A useful copyright complaint should include, where applicable:
+          </p>
+
+          <ol>
+            <li>identification of the copyrighted work;</li>
+            <li>identification and URL of the allegedly infringing material;</li>
+            <li>sufficient information for us to contact you;</li>
+            <li>a statement explaining why you believe the use is unauthorized;</li>
+            <li>a statement that the information provided is accurate and, where applicable, that you are authorized to
+              act for the copyright owner; and</li>
+            <li>an electronic or physical signature.</li>
+          </ol>
+
+          <p>
+            We may remove or restrict access to allegedly infringing material
+            while a complaint is reviewed.
+          </p>
+
+          <p>
+            We may request additional information where reasonably necessary
+            to evaluate a complaint.
+          </p>
+
+          <p>
+            Nothing in this section limits any rights available under
+            applicable copyright law.
+          </p>
+        </section>
+
+
+        <section id="section-5">
+          <h2>5. Privacy and Non-Consensual Intimate Imagery Complaints</h2>
+
+          <p>
+            If you believe that the Platform contains intimate, sexual,
+            private, or otherwise sensitive material depicting you without
+            appropriate consent or authorization, contact:
+          </p>
+
+          <p>
+            <a href="mailto:support@viralmmsvideo.dpdns.org">
+              <strong>support@viralmmsvideo.dpdns.org</strong>
+            </a>
+          </p>
+
+          <p>You may report material involving:</p>
+
+          <ul>
+            <li>non-consensual intimate imagery;</li>
+            <li>intimate material distributed without consent;</li>
+            <li>private or sensitive material published without authorization;</li>
+            <li>sexual material involving you that you believe should not be publicly available;</li>
+            <li>impersonation or manipulated material depicting you;</li>
+            <li>unauthorized use of your likeness; or</li>
+            <li>other serious privacy violations.</li>
+          </ul>
+
+          <p>
+            Please provide the URL of the relevant material and enough
+            information for us to identify the content and understand
+            your complaint.
+          </p>
+
+          <p>
+            Where required by applicable law, we will process qualifying
+            complaints within the applicable legal timeframe and take
+            reasonable and legally appropriate action.
+          </p>
+        </section>
+
+
+        <section id="section-6">
+          <h2>6. Prohibited Content</h2>
+
+          <p>
+            The Platform does not permit unlawful content, including:
+          </p>
+
+          <ul>
+            <li>child sexual abuse material (CSAM);</li>
+            <li>sexual content involving minors;</li>
+            <li>sexual exploitation of minors;</li>
+            <li>trafficking or exploitation;</li>
+            <li>non-consensual intimate imagery;</li>
+            <li>sexual material distributed without the required consent;</li>
+            <li>unlawful privacy violations;</li>
+            <li>unlawful sexual deepfakes or synthetic intimate material;</li>
+            <li>content depicting or facilitating sexual exploitation;</li>
+            <li>material intended to facilitate criminal activity;</li>
+            <li>malware, phishing, fraud, or malicious software;</li>
+            <li>unlawfully obtained personal information; and</li>
+            <li>any other material prohibited by applicable law.</li>
+          </ul>
+
+          <p>
+            If prohibited material is identified or credibly reported, we may
+            remove or restrict it and may take additional action where
+            required or appropriate.
+          </p>
+        </section>
+
+
+        <section id="section-7">
+          <h2>7. Consent and Rights</h2>
+
+          <p>
+            The Platform aims to publish content only where there is a lawful
+            basis for publication.
+          </p>
+
+          <p>
+            However, because content may be obtained from external sources
+            and processed through automated and manual systems, errors may
+            occasionally occur.
+          </p>
+
+          <p>
+            If you believe that content was published without the necessary
+            authorization, consent, or rights, please notify us promptly
+            using the reporting channels provided in these Terms.
+          </p>
+
+          <p>
+            A complaint may be made regardless of whether the content was
+            published intentionally, automatically, mistakenly, or through
+            an error in our processes.
+          </p>
+        </section>
+
+
+        <section id="section-8">
+          <h2>8. AI-Generated or Manipulated Material</h2>
+
+          <p>
+            The Platform may contain material that has been digitally edited,
+            altered, synthesized, or generated using automated or
+            artificial-intelligence technologies.
+          </p>
+
+          <p>
+            AI-generated or manipulated material is not automatically lawful
+            merely because technology was used to create or modify it.
+          </p>
+
+          <p>
+            We prohibit unlawful synthetic material, including material
+            depicting minors and unlawful non-consensual intimate imagery.
+          </p>
+
+          <p>
+            If you believe that manipulated or synthetic material depicting
+            you has been published without appropriate authorization or
+            consent, contact:
+          </p>
+
+          <p>
+            <a href="mailto:support@viralmmsvideo.dpdns.org">
+              <strong>support@viralmmsvideo.dpdns.org</strong>
+            </a>
+          </p>
+        </section>
+
+
+        <section id="section-9">
+          <h2>9. Automated Tools and Errors</h2>
+
+          <p>
+            We may use automated software, crawlers, feeds, databases,
+            indexing systems, artificial intelligence, or other technological
+            tools to assist with content discovery, processing, organization,
+            metadata generation, moderation, or publication.
+          </p>
+
+          <p>Automated systems can make mistakes.</p>
+
+          <p>Accordingly, the Platform does not guarantee that:</p>
+
+          <ul>
+            <li>every description or metadata field is accurate;</li>
+            <li>every classification is correct;</li>
+            <li>every source attribution is complete;</li>
+            <li>every item has been correctly categorized; or</li>
+            <li>every potentially problematic item has been detected before publication.</li>
+          </ul>
+
+          <p>
+            If you identify an error or potentially unlawful item, please
+            report it to us.
+          </p>
+
+          <p>
+            We will review credible reports and may correct, restrict, or
+            remove the relevant material.
+          </p>
+        </section>
+
+
+        <section id="section-10">
+          <h2>10. Removal and Moderation</h2>
+
+          <p>
+            We reserve the right, where permitted or required by applicable
+            law, to:
+          </p>
+
+          <ul>
+            <li>remove or disable access to content;</li>
+            <li>correct inaccurate information;</li>
+            <li>restrict access to particular material;</li>
+            <li>prevent material from being republished;</li>
+            <li>use technical measures to identify previously reported material;</li>
+            <li>investigate complaints;</li>
+            <li>preserve information where legally required;</li>
+            <li>cooperate with lawful requests from courts or competent authorities; and</li>
+            <li>take other reasonable measures necessary to protect the Platform, users, affected individuals, or our
+              legal interests.</li>
+          </ul>
+
+          <p>
+            We do not guarantee that every prohibited or unlawful item will
+            be detected automatically.
+          </p>
+        </section>
+
+
+        <section id="section-11">
+          <h2>11. Public Display and Uploader Information</h2>
+
+          <p>
+            Content published on the Platform may be handled by authorized
+            employees, contractors, or other personnel acting on behalf of
+            the Platform operator.
+          </p>
+
+          <p>
+            The identity of individual personnel involved in content
+            processing or publication is
+            <strong>not ordinarily displayed publicly</strong>.
+          </p>
+
+          <p>
+            This does not mean that the identity or records relating to
+            personnel are legally guaranteed to remain undisclosed in every
+            circumstance.
+          </p>
+
+          <p>
+            Where disclosure is required by valid legal process or applicable
+            law, the Platform may provide information to competent
+            authorities or other legally entitled parties.
+          </p>
+        </section>
+
+
+        <section id="section-12">
+          <h2>12. Third-Party Sources</h2>
+
+          <p>
+            Some material may originate from third-party websites, publicly
+            accessible sources, licensed sources, or other external sources.
+          </p>
+
+          <p>
+            The existence of material on a third-party website does not
+            necessarily mean that its reproduction, redistribution, or
+            publication elsewhere is authorized.
+          </p>
+
+          <p>
+            If you believe that material appearing on ViralMMSVideo should
+            not be available on the Platform, please report it to us.
+          </p>
+
+          <p>
+            We may investigate the source, rights, consent, or other
+            circumstances and may remove or restrict the material where
+            appropriate.
+          </p>
+        </section>
+
+
+        <section id="section-13">
+          <h2>13. Repeat or Reappearing Material</h2>
+
+          <p>
+            Where technically and legally appropriate, we may use hashes,
+            identifiers, URLs, metadata, automated detection, or other
+            measures to help identify previously reported material.
+          </p>
+
+          <p>
+            Because substantially identical, modified, mirrored, or newly
+            sourced copies may appear, we cannot guarantee that previously
+            removed material will never reappear.
+          </p>
+
+          <p>
+            If material that you previously reported appears again, please
+            provide the new URL or other identifying information so that
+            we can investigate it.
+          </p>
+        </section>
+
+
+        <section id="section-14">
+          <h2>14. Copyright Counter-Notices</h2>
+
+          <p>
+            Where applicable law provides a counter-notification procedure,
+            a person whose material has been removed following a copyright
+            complaint may submit an appropriate counter-notice.
+          </p>
+
+          <p>
+            Any counter-notice must contain sufficient information for us
+            to evaluate the dispute.
+          </p>
+
+          <p>
+            Where legally permitted or required, information contained in
+            a counter-notice may be provided to the complaining party.
+          </p>
+        </section>
+
+
+        <section id="section-15">
+          <h2>15. Legal Requests and Law Enforcement</h2>
+
+          <p>
+            We may respond to valid subpoenas, court orders, governmental
+            requests, law-enforcement requests, and other lawful legal
+            process.
+          </p>
+
+          <p>
+            Nothing in these Terms prevents lawful reporting, investigation,
+            prosecution, or enforcement of criminal or civil law.
+          </p>
+        </section>
+
+
+        <section id="section-16">
+          <h2>16. Platform Availability</h2>
+
+          <p>
+            We do not guarantee that the Platform or any particular content
+            will always be available.
+          </p>
+
+          <p>
+            Content may be removed, restricted, modified, or become
+            unavailable without notice for legal, privacy, security,
+            operational, technical, moderation, or other legitimate reasons.
+          </p>
+        </section>
+
+
+        <section id="section-17">
+          <h2>17. Security</h2>
+
+          <p>
+            We use reasonable technical and organizational measures intended
+            to protect the Platform and information processed through it.
+          </p>
+
+          <p>
+            However, no internet service can guarantee absolute security.
+          </p>
+
+          <p>
+            Users should avoid sending unnecessary sensitive personal
+            information through ordinary communications.
+          </p>
+        </section>
+
+
+        <section id="section-18">
+          <h2>18. No Warranty</h2>
+
+          <p>
+            To the maximum extent permitted by applicable law, the Platform
+            is provided on an “as available” basis.
+          </p>
+
+          <p>We do not guarantee that:</p>
+
+          <ul>
+            <li>the Platform will always operate without interruption;</li>
+            <li>all content will be accurate or complete;</li>
+            <li>all content will remain available;</li>
+            <li>all errors will be immediately detected;</li>
+            <li>every complaint will result in removal; or</li>
+            <li>the Platform will be available in every jurisdiction.</li>
+          </ul>
+
+          <p>
+            Nothing in this section excludes a warranty, right, or remedy
+            that cannot lawfully be excluded.
+          </p>
+        </section>
+
+
+        <section id="section-19">
+          <h2>19. Limitation of Liability</h2>
+
+          <p>
+            To the maximum extent permitted by applicable law, the Platform
+            operator and its officers, employees, contractors, service
+            providers, and affiliates will not be liable for indirect,
+            incidental, consequential, special, or punitive losses arising
+            from or relating to use of the Platform.
+          </p>
+
+          <p>
+            Nothing in these Terms excludes or limits liability that cannot
+            lawfully be excluded or limited.
+          </p>
+
+          <p>
+            Any limitation of liability is subject to applicable law and
+            may not apply to particular claims or circumstances.
+          </p>
+        </section>
+
+
+        <section id="section-20">
+          <h2>20. Indemnification</h2>
+
+          <p>
+            To the extent permitted by applicable law, a person who uses the
+            Platform unlawfully or intentionally causes harm through misuse
+            of the Platform may be responsible for losses, claims,
+            liabilities, and reasonable costs arising from that unlawful
+            conduct.
+          </p>
+
+          <p>
+            Nothing in this section creates an obligation that is prohibited
+            by applicable law.
+          </p>
+        </section>
+
+
+        <section id="section-21">
+          <h2>21. Applicable Law and Jurisdiction</h2>
+
+          <p>
+            The applicable law and jurisdiction for disputes involving the
+            Platform may depend on the location of the Platform operator,
+            the user, the relevant conduct, and mandatory laws applicable
+            to the particular matter.
+          </p>
+
+          <p>
+            Nothing in these Terms is intended to unlawfully exclude the
+            jurisdiction of a court or authority that has lawful jurisdiction.
+          </p>
+
+          <p>
+            If the Platform operator adopts a specific governing-law and
+            jurisdiction clause, that clause should be inserted here
+            following advice from qualified legal counsel.
+          </p>
+        </section>
+
+
+        <section id="section-22">
+          <h2>22. Privacy</h2>
+
+          <p>
+            Use of the Platform may involve processing of personal information.
+          </p>
+
+          <p>
+            Our collection and use of personal information should be
+            described in a separate <strong>Privacy Policy</strong>, which
+            forms part of the Platform's legal documentation.
+          </p>
+
+          <p>
+            Nothing in these Terms replaces any privacy rights or obligations
+            applicable under law.
+          </p>
+        </section>
+
+
+        <section id="section-23">
+          <h2>23. Changes to These Terms</h2>
+
+          <p>
+            We may update these Terms from time to time.
+          </p>
+
+          <p>
+            The updated version will be published on the Platform with a
+            revised “Last Updated” date.
+          </p>
+
+          <p>
+            Your continued use of the Platform after an update constitutes
+            acceptance of the updated Terms to the extent permitted by
+            applicable law.
+          </p>
+        </section>
+
+
+        <section id="section-24">
+          <h2>24. Contact Information</h2>
+
+          <h3>General / Privacy / Content Complaints</h3>
+
+          <p>
+            <a href="mailto:support@viralmmsvideo.dpdns.org">
+              <strong>support@viralmmsvideo.dpdns.org</strong>
+            </a>
+          </p>
+
+          <h3>Copyright Complaints</h3>
+
+          <p>
+            <a href="mailto:dmca@viralmmsvideo.dpdns.org">
+              <strong>dmca@viralmmsvideo.dpdns.org</strong>
+            </a>
+          </p>
+
+          <h3>Platform Contact</h3>
+
+          <p>
+            <a href="mailto:wildspyder@protonmail.com">
+              <strong>wildspyder@protonmail.com</strong>
+            </a>
+          </p>
+
+          <p>
+            When contacting us, please provide the relevant URL and a clear
+            explanation of the issue.
+          </p>
+
+          <p>
+            For urgent privacy, NCII, minor-safety, or other potentially
+            unlawful-content complaints, clearly mark the subject line:
+          </p>
+
+          <p>
+            <strong>URGENT — CONTENT REMOVAL REQUEST</strong>
+          </p>
+        </section>
+
+
+        <section id="section-25">
+          <h2>25. Good-Faith Reporting</h2>
+
+          <p>
+            We encourage anyone who believes that material on ViralMMSVideo
+            is unlawful, unauthorized, incorrectly published, or otherwise
+            problematic to contact us.
+          </p>
+
+          <p>
+            You do not need to prove your entire legal case before contacting
+            us.
+          </p>
+
+          <p>
+            Providing enough information for us to identify and evaluate
+            the material will help us review the complaint efficiently.
+          </p>
+
+          <p>
+            We may request additional information where reasonably necessary
+            to verify a complaint or determine the appropriate action.
+          </p>
+        </section>
+
+
+        <section id="section-26">
+          <h2>26. Important Notice</h2>
+
+          <p>
+            These Terms are a general description of the Platform's rules
+            and procedures and are not a guarantee that the Platform
+            complies with every law in every jurisdiction.
+          </p>
+
+          <p>
+            Laws concerning adult material, copyright, privacy, intimate
+            imagery, artificial intelligence, age assurance, online
+            platforms, data protection, and content distribution vary
+            between jurisdictions and may change over time.
+          </p>
+
+          <p>
+            If the Platform is operated commercially, the operator should
+            obtain advice from qualified counsel familiar with the laws
+            applicable to the Platform and its users.
+          </p>
+
+          <p>
+            <strong>
+              ViralMMSVideo's policy is to prohibit unlawful material,
+              take credible complaints seriously, and remove or restrict
+              material when appropriate or required by applicable law.
+            </strong>
+          </p>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="policy-footer">
+
+          <p>© 2026 ViralMMSVideo. All rights reserved.</p>
+
+          <nav class="footer-links">
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/dmca-policy">DMCA Policy</a>
+            <a href="/terms">Terms &amp; Conditions</a>
+          </nav>
+
+        </footer>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!-- Back to Top -->
+  <button class="top-button" type="button" aria-label="Back to top" title="Back to top"
+    onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    ↑
+  </button>
+
+</body>
+
+</html>

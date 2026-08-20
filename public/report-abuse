@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow">
+
+    <title>Report Abuse — ViralMMSVideo</title>
+
+    <link rel="stylesheet" href="/public/terms.css">
+</head>
+
+<body>
+
+    <!-- Fixed Navigation -->
+    <header class="site-header">
+        <div class="nav-inner">
+
+            <button class="back-button" type="button" onclick="history.back()" aria-label="Go back" title="Go back">
+                <span aria-hidden="true">←</span>
+            </button>
+
+            <a href="/" class="brand">ViralMMSVideo</a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="/">Home</a>
+                <a href="/privacy">Privacy</a>
+                <a href="/dmca-policy">DMCA</a>
+                <a href="/terms">Terms</a>
+                <a href="/report-abuse" class="active">Report Abuse</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="page-shell">
+
+        <section class="page-header">
+            <div class="eyebrow">CONTENT REPORTING</div>
+
+            <h1>Report Abuse</h1>
+
+            <p class="page-description">
+                Report unlawful, unauthorized, privacy-violating, or otherwise problematic content.
+            </p>
+
+            <div class="last-updated">
+                Content Removal &amp; Abuse Reporting
+            </div>
+        </section>
+
+        <div class="content-layout">
+
+            <!-- Table of Contents -->
+            <aside class="toc-wrapper">
+                <div class="toc-card">
+                    <div class="toc-title">Report Types</div>
+
+                    <nav class="toc" aria-label="Report types">
+                        <a href="#privacy">Privacy / NCII</a>
+                        <a href="#copyright">Copyright</a>
+                        <a href="#illegal">Illegal Content</a>
+                        <a href="#general">General Abuse</a>
+                        <a href="#what-to-send">What to Include</a>
+                    </nav>
+                </div>
+            </aside>
+
+            <article class="policy-card">
+
+                <div class="notice">
+                    Please provide the exact URL of the content and a clear explanation of the problem.
+                    You do not need to prove your entire legal case before submitting a good-faith report.
+                </div>
+
+                <section id="privacy">
+                    <h2>1. Privacy / Non-Consensual Intimate Imagery</h2>
+
+                    <p>
+                        If content depicts you or contains your private, intimate, sexual, or sensitive
+                        information without appropriate consent or authorization, contact:
+                    </p>
+
+                    <p>
+                        <a href="mailto:support@viralmmsvideo.dpdns.org">
+                            <strong>support@viralmmsvideo.dpdns.org</strong>
+                        </a>
+                    </p>
+
+                    <p>Reports may include:</p>
+
+                    <ul>
+                        <li>non-consensual intimate imagery;</li>
+                        <li>private or sensitive material published without authorization;</li>
+                        <li>sexual material involving you that should not be publicly available;</li>
+                        <li>impersonation or manipulated material depicting you;</li>
+                        <li>unauthorized use of your image or likeness; or</li>
+                        <li>other serious privacy violations.</li>
+                    </ul>
+
+                    <p>
+                        For urgent privacy, NCII, or minor-safety complaints, clearly mark the subject:
+                        <strong>URGENT — CONTENT REMOVAL REQUEST</strong>
+                    </p>
+                </section>
+
+                <section id="copyright">
+                    <h2>2. Copyright Complaint</h2>
+
+                    <p>
+                        Copyright owners or authorized representatives should send copyright complaints to:
+                    </p>
+
+                    <p>
+                        <a href="mailto:dmca@viralmmsvideo.dpdns.org">
+                            <strong>dmca@viralmmsvideo.dpdns.org</strong>
+                        </a>
+                    </p>
+
+                    <p>A useful copyright report should identify:</p>
+
+                    <ol>
+                        <li>the copyrighted work;</li>
+                        <li>the URL of the allegedly infringing material;</li>
+                        <li>contact information for the reporting party;</li>
+                        <li>why the use is believed to be unauthorized;</li>
+                        <li>confirmation that the information is accurate and that the reporter is authorized to act,
+                            where applicable; and</li>
+                        <li>an electronic or physical signature.</li>
+                    </ol>
+
+                    <p>
+                        Additional information may be requested when reasonably necessary to evaluate the complaint.
+                    </p>
+                </section>
+
+                <section id="illegal">
+                    <h2>3. Illegal or Prohibited Content</h2>
+
+                    <p>
+                        Report content that you believe is unlawful or prohibited, including:
+                    </p>
+
+                    <ul>
+                        <li>child sexual abuse material (CSAM) or sexual content involving minors;</li>
+                        <li>sexual exploitation or trafficking;</li>
+                        <li>non-consensual intimate imagery;</li>
+                        <li>unlawful sexual deepfakes or synthetic intimate material;</li>
+                        <li>unlawful privacy violations;</li>
+                        <li>malware, phishing, fraud, or malicious software;</li>
+                        <li>unlawfully obtained personal information; or</li>
+                        <li>other material prohibited by applicable law.</li>
+                    </ul>
+
+                    <p>
+                        Send these reports to
+                        <a href="mailto:support@viralmmsvideo.dpdns.org">
+                            <strong>support@viralmmsvideo.dpdns.org</strong>
+                        </a>
+                        with the relevant URL and enough information to identify the material.
+                    </p>
+                </section>
+
+                <section id="general">
+                    <h2>4. General Abuse / Content Complaint</h2>
+
+                    <p>
+                        You may report content that is inaccurate, misleading, unauthorized, incorrectly
+                        published, or otherwise problematic.
+                    </p>
+
+                    <p>
+                        General reports should be sent to:
+                    </p>
+
+                    <p>
+                        <a href="mailto:support@viralmmsvideo.dpdns.org">
+                            <strong>support@viralmmsvideo.dpdns.org</strong>
+                        </a>
+                    </p>
+
+                    <p>
+                        We may review credible reports and may correct, restrict, remove, or otherwise
+                        modify access to material where appropriate or required by applicable law.
+                    </p>
+                </section>
+
+                <section id="what-to-send">
+                    <h2>5. What to Include in Your Report</h2>
+
+                    <p>
+                        To help us process your report efficiently, include:
+                    </p>
+
+                    <ol>
+                        <li><strong>Content URL:</strong> the exact page or media URL.</li>
+                        <li><strong>Reason for the report:</strong> clearly explain what is wrong.</li>
+                        <li><strong>Your connection to the content:</strong> for example, copyright owner, depicted
+                            person, authorized representative, or other affected person.</li>
+                        <li><strong>Relevant details:</strong> identify the specific material and explain why it should
+                            be removed or restricted.</li>
+                        <li><strong>Contact information:</strong> enough information for us to respond if clarification
+                            is required.</li>
+                    </ol>
+
+                    <div class="notice">
+                        Please do not send unnecessary sensitive personal information. Provide only the
+                        information reasonably necessary for us to identify and evaluate your complaint.
+                    </div>
+
+                    <p>
+                        If the material you previously reported appears again, send the new URL or other
+                        identifying information so it can be investigated.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>6. Contact</h2>
+
+                    <h3>General / Privacy / Abuse Reports</h3>
+
+                    <p>
+                        <a href="mailto:support@viralmmsvideo.dpdns.org">
+                            <strong>support@viralmmsvideo.dpdns.org</strong>
+                        </a>
+                    </p>
+
+                    <h3>Copyright Reports</h3>
+
+                    <p>
+                        <a href="mailto:dmca@viralmmsvideo.dpdns.org">
+                            <strong>dmca@viralmmsvideo.dpdns.org</strong>
+                        </a>
+                    </p>
+
+                    <p>
+                        When contacting us, include the relevant URL and a clear explanation of the issue.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>7. What Happens After a Report</h2>
+
+                    <p>
+                        Reports may be reviewed manually or with the assistance of automated systems.
+                        Automated systems can make mistakes, so credible reports may be reviewed and the
+                        relevant material may be corrected, restricted, or removed.
+                    </p>
+
+                    <p>
+                        We may request additional information where reasonably necessary to verify a complaint
+                        or determine the appropriate action.
+                    </p>
+
+                    <p>
+                        Nothing on this page guarantees removal in every circumstance. Decisions are subject
+                        to applicable law and the facts of the particular complaint.
+                    </p>
+                </section>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- Back to Top -->
+    <button class="top-button" type="button" aria-label="Back to top" title="Back to top"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑
+    </button>
+
+</body>
+
+</html>

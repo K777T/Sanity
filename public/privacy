@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow">
+    <meta name="description"
+        content="ViralMMSVideo Privacy Policy — information about data collection, Cloudflare, security, retention, third-party infrastructure, and privacy requests.">
+    <title>Privacy Policy — ViralMMSVideo</title>
+
+    <link rel="stylesheet" href="/public/privacy.css">
+
+    <!-- Font Awesome for the round back button -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Round back button -->
+    <a href="javascript:history.back()" class="back-button" aria-label="Go back" title="Go back">
+        <i class="fa-solid fa-arrow-left"></i>
+    </a>
+
+    <main class="container">
+        <article class="card">
+
+            <header class="hero">
+                <div class="eyebrow">PRIVACY &amp; DATA</div>
+                <h1>Privacy Policy</h1>
+                <p class="hero-sub">
+                    A transparent overview of how ViralMMSVideo handles technical information,
+                    privacy requests, security, and third-party infrastructure.
+                </p>
+            </header>
+
+            <!-- Sticky table of contents / sidebar navigation -->
+            <div class="policy-layout">
+
+                <aside class="toc">
+                    <div class="toc-card">
+                        <div class="toc-title">ON THIS PAGE</div>
+
+                        <nav aria-label="Privacy Policy sections">
+                            <a href="#section-1">1. Information We May Collect</a>
+                            <a href="#section-2">2. Cloudflare and Network Security</a>
+                            <a href="#section-3">3. Why We Process Information</a>
+                            <a href="#section-4">4. IP Addresses</a>
+                            <a href="#section-5">5. Cookies and Similar Technologies</a>
+                            <a href="#section-6">6. Video and CDN Providers</a>
+                            <a href="#section-7">7. We Do Not Sell Your Personal Information</a>
+                            <a href="#section-8">8. Adult Content and Privacy</a>
+                            <a href="#section-9">9. Information You Send to Us</a>
+                            <a href="#section-10">10. Copyright and Privacy Complaints</a>
+                            <a href="#section-11">11. Information We May Share</a>
+                            <a href="#section-12">12. We Do Not Guarantee Absolute Privacy</a>
+                            <a href="#section-13">13. Data Retention</a>
+                            <a href="#section-14">14. International Processing</a>
+                            <a href="#section-15">15. Third-Party Services</a>
+                            <a href="#section-16">16. Children's Privacy</a>
+                            <a href="#section-17">17. Security</a>
+                            <a href="#section-18">18. Data Breaches and Security Incidents</a>
+                            <a href="#section-19">19. Your Privacy Rights</a>
+                            <a href="#section-20">20. Legal Requests and Law Enforcement</a>
+                            <a href="#section-21">21. Third-Party Infrastructure Disclaimer</a>
+                            <a href="#section-22">22. No Data Monetization</a>
+                            <a href="#section-23">23. Changes to This Privacy Policy</a>
+                            <a href="#section-24">24. Contact</a>
+                        </nav>
+                    </div>
+                </aside>
+
+                <div class="policy-content">
+
+                    <section class="policy-section" id="section-1">
+                        <h2>1. Information We May Collect</h2>
+                        <p>Depending on how you use the Platform, we may process the following categories of
+                            information:</p>
+                        <h3>Technical and Usage Information</h3>
+                        <p>When you visit the Platform, certain technical information may be processed automatically,
+                            including:</p>
+                        <ul>
+                            <li>IP address;</li>
+                            <li>approximate geographic information derived from an IP address;</li>
+                            <li>browser type and version;</li>
+                            <li>operating system;</li>
+                            <li>device information;</li>
+                            <li>requested URLs;</li>
+                            <li>referring URLs;</li>
+                            <li>timestamps;</li>
+                            <li>HTTP request information;</li>
+                            <li>network information;</li>
+                            <li>error and diagnostic information; and</li>
+                            <li>information concerning how the Platform is accessed and used.</li>
+                        </ul>
+                        <p>We use this information for security, abuse prevention, debugging, performance monitoring,
+                            traffic measurement, and service reliability.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-2">
+                        <h2>2. Cloudflare and Network Security</h2>
+                        <p>Our Platform may use Cloudflare services for DNS, CDN, security, traffic management,
+                            performance monitoring, analytics, email services, and other infrastructure functions.</p>
+                        <p>As part of these services, Cloudflare may process technical information such as IP addresses,
+                            network requests, security events, and traffic information.</p>
+                        <p>We may retain or access certain information made available through Cloudflare services for
+                            legitimate operational purposes, including:</p>
+                        <ul>
+                            <li>detecting malicious traffic;</li>
+                            <li>preventing automated abuse;</li>
+                            <li>investigating security incidents;</li>
+                            <li>monitoring service availability;</li>
+                            <li>understanding traffic patterns;</li>
+                            <li>measuring Platform performance;</li>
+                            <li>diagnosing errors; and</li>
+                            <li>maintaining the security and integrity of the Platform.</li>
+                        </ul>
+                        <p>Cloudflare may independently process information in accordance with its own terms and privacy
+                            practices.</p>
+                        <p>For more information, users should review Cloudflare's privacy documentation.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-3">
+                        <h2>3. Why We Process Information</h2>
+                        <p>We may process information for the following purposes:</p>
+                        <h3>Operating the Platform</h3>
+                        <p>We use technical information to deliver pages, videos, APIs, and other Platform
+                            functionality.</p>
+                        <h3>Security</h3>
+                        <p>We may process IP addresses and other technical information to identify:</p>
+                        <ul>
+                            <li>attacks;</li>
+                            <li>malicious automation;</li>
+                            <li>spam;</li>
+                            <li>scraping;</li>
+                            <li>abuse;</li>
+                            <li>fraudulent activity;</li>
+                            <li>attempts to circumvent security controls; and</li>
+                            <li>other threats to the Platform.</li>
+                        </ul>
+                        <h3>Analytics and Performance</h3>
+                        <p>We may use aggregated or technical information to understand traffic patterns, Platform
+                            performance, errors, and usage trends.</p>
+                        <p>Where reasonably possible, analytics information is used in aggregated or otherwise minimized
+                            form.</p>
+                        <h3>Legal Compliance</h3>
+                        <p>We may process and retain information where reasonably necessary to comply with applicable
+                            law, respond to valid legal process, investigate unlawful activity, or protect our legal
+                            rights.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-4">
+                        <h2>4. IP Addresses</h2>
+                        <p>Because the Platform operates on the public internet, IP addresses may necessarily be
+                            processed by our infrastructure and third-party infrastructure providers.</p>
+                        <p>We may use IP addresses for:</p>
+                        <ul>
+                            <li>security;</li>
+                            <li>abuse prevention;</li>
+                            <li>rate limiting;</li>
+                            <li>fraud detection;</li>
+                            <li>traffic measurement;</li>
+                            <li>debugging;</li>
+                            <li>operational monitoring;</li>
+                            <li>enforcing Platform rules; and</li>
+                            <li>responding to lawful requests.</li>
+                        </ul>
+                        <p>We do <strong>not</strong> sell IP addresses to advertisers or data brokers.</p>
+                        <p>IP addresses may also be processed by infrastructure providers such as Cloudflare or
+                            hosting/CDN providers used to operate the Platform.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-5">
+                        <h2>5. Cookies and Similar Technologies</h2>
+                        <p>The Platform may use cookies, local storage, or similar technologies where necessary for:</p>
+                        <ul>
+                            <li>authentication;</li>
+                            <li>security;</li>
+                            <li>session management;</li>
+                            <li>preferences;</li>
+                            <li>functionality;</li>
+                            <li>performance monitoring; or</li>
+                            <li>analytics.</li>
+                        </ul>
+                        <p>Where cookies are not necessary for the operation of the Platform, we may provide appropriate
+                            controls where required by applicable law.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-6">
+                        <h2>6. Video and CDN Providers</h2>
+                        <p>Videos available through the Platform may be stored, delivered, cached, or processed through
+                            third-party hosting, storage, CDN, streaming, or infrastructure providers.</p>
+                        <p>These providers may operate infrastructure in different countries and may process technical
+                            information necessary to deliver requested content.</p>
+                        <p>Third-party providers may have their own:</p>
+                        <ul>
+                            <li>privacy policies;</li>
+                            <li>terms of service;</li>
+                            <li>security practices;</li>
+                            <li>retention policies;</li>
+                            <li>legal obligations; and</li>
+                            <li>procedures for responding to lawful requests.</li>
+                        </ul>
+                        <p>Their independent processing may therefore differ from our own practices.</p>
+                        <p>Where we use a third-party provider to process information on our behalf, we seek to use
+                            providers appropriate for the relevant service and, where applicable, require appropriate
+                            contractual and security protections.</p>
+                        <p>Where a provider independently determines how it processes information under its own service,
+                            its own privacy policy and terms may also apply.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-7">
+                        <h2>7. We Do Not Sell Your Personal Information</h2>
+                        <p>We do not sell personal information to:</p>
+                        <ul>
+                            <li>advertising companies;</li>
+                            <li>data brokers;</li>
+                            <li>marketing databases; or</li>
+                            <li>unrelated third parties seeking to monetize user information.</li>
+                        </ul>
+                        <p>We do not intentionally use personal information for unlawful or unethical purposes.</p>
+                        <p>We also do not intentionally collect information for the purpose of identifying users merely
+                            because they access adult content.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-8">
+                        <h2>8. Adult Content and Privacy</h2>
+                        <p>The Platform is intended for adults.</p>
+                        <p>We understand that visits to an adult-content website may be particularly sensitive.</p>
+                        <p>We therefore aim to minimize unnecessary collection of personal information.</p>
+                        <p>You should avoid voluntarily submitting sensitive personal information through public
+                            comments, support requests, or other areas of the Platform unless that information is
+                            necessary to resolve your request.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-9">
+                        <h2>9. Information You Send to Us</h2>
+                        <p>If you contact us through email or another support channel, we may receive information
+                            contained in your communication, including:</p>
+                        <ul>
+                            <li>your email address;</li>
+                            <li>name or alias you provide;</li>
+                            <li>message contents;</li>
+                            <li>attachments;</li>
+                            <li>URLs;</li>
+                            <li>information necessary to investigate your complaint; and</li>
+                            <li>other information you voluntarily provide.</li>
+                        </ul>
+                        <p>We use this information to respond to your request, investigate reports, process copyright
+                            complaints, handle privacy complaints, and maintain appropriate records.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-10">
+                        <h2>10. Copyright and Privacy Complaints</h2>
+                        <p>If you submit a DMCA, copyright, privacy, non-consensual intimate imagery, or other legal
+                            complaint, we may retain the information you provide so that we can investigate and process
+                            the complaint.</p>
+                        <p>Our designated contacts include:</p>
+                        <p><strong>DMCA:</strong></p>
+                        <p><a href="mailto:dmca@viralmmsvideo.dpdns.org">dmca@viralmmsvideo.dpdns.org</a></p>
+                        <p><strong>Support:</strong></p>
+                        <p><a href="mailto:support@viralmmsvideo.dpdns.org">support@viralmmsvideo.dpdns.org</a></p>
+                        <p><strong>Official contact:</strong></p>
+                        <p><a href="mailto:wildspyder@protonmail.com">wildspyder@protonmail.com</a></p>
+                        <p>We may disclose complaint-related information where reasonably necessary to process the
+                            complaint, respond to legal process, communicate with relevant parties, or comply with
+                            applicable law.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-11">
+                        <h2>11. Information We May Share</h2>
+                        <p>We may disclose information in limited circumstances, including:</p>
+                        <h3>Service Providers</h3>
+                        <p>We may share or allow access to information with providers that help us operate the Platform,
+                            such as:</p>
+                        <ul>
+                            <li>hosting providers;</li>
+                            <li>CDN providers;</li>
+                            <li>Cloudflare;</li>
+                            <li>storage providers;</li>
+                            <li>email providers;</li>
+                            <li>security providers;</li>
+                            <li>analytics providers;</li>
+                            <li>monitoring services; and</li>
+                            <li>other infrastructure providers.</li>
+                        </ul>
+                        <h3>Legal Requirements</h3>
+                        <p>We may disclose information when we reasonably believe disclosure is required by applicable
+                            law, valid legal process, court order, or lawful governmental request.</p>
+                        <h3>Protection of Rights and Security</h3>
+                        <p>We may disclose information where reasonably necessary to:</p>
+                        <ul>
+                            <li>investigate fraud;</li>
+                            <li>prevent abuse;</li>
+                            <li>protect users;</li>
+                            <li>protect our systems;</li>
+                            <li>investigate security incidents;</li>
+                            <li>enforce our Terms;</li>
+                            <li>establish or defend legal claims; or</li>
+                            <li>protect the rights, property, or safety of the Platform, users, or others.</li>
+                        </ul>
+                    </section>
+
+                    <section class="policy-section" id="section-12">
+                        <h2>12. We Do Not Guarantee Absolute Privacy</h2>
+                        <p>Although we take reasonable measures to protect information, no internet service can
+                            guarantee absolute security or anonymity.</p>
+                        <p>Network providers, infrastructure providers, browsers, operating systems, payment providers,
+                            and other third parties may independently process information when you use the internet.</p>
+                        <p>Accordingly, you should not assume that accessing any internet service provides complete
+                            anonymity.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-13">
+                        <h2>13. Data Retention</h2>
+                        <p>We retain information only for as long as reasonably necessary for the purpose for which it
+                            was collected, including:</p>
+                        <ul>
+                            <li>providing services;</li>
+                            <li>maintaining security;</li>
+                            <li>preventing abuse;</li>
+                            <li>resolving disputes;</li>
+                            <li>maintaining technical logs;</li>
+                            <li>complying with legal obligations; or</li>
+                            <li>establishing or defending legal claims.</li>
+                        </ul>
+                        <p>Different categories of information may therefore have different retention periods.</p>
+                        <p>Technical logs may be automatically deleted, rotated, anonymized, or aggregated according to
+                            our operational requirements and the capabilities of the relevant infrastructure providers.
+                        </p>
+                        <p>Information may be retained longer where necessary for a legitimate legal, security, or
+                            operational purpose.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-14">
+                        <h2>14. International Processing</h2>
+                        <p>Because our Platform may use infrastructure and service providers located in different
+                            countries, information may be processed internationally.</p>
+                        <p>For example, infrastructure used by the Platform may be located in or operate from countries
+                            including the United States, countries within Europe, and other jurisdictions.</p>
+                        <p>The privacy and data-protection laws applicable to information may therefore differ depending
+                            on where processing occurs.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-15">
+                        <h2>15. Third-Party Services</h2>
+                        <p>The Platform may contain links to or integrations with third-party websites and services.</p>
+                        <p>We do not control the privacy practices of independent third parties.</p>
+                        <p>Visiting a third-party service is subject to that provider's own terms and privacy policy.
+                        </p>
+                    </section>
+
+                    <section class="policy-section" id="section-16">
+                        <h2>16. Children's Privacy</h2>
+                        <p>The Platform is intended exclusively for adults.</p>
+                        <p>We do not knowingly permit persons under 18 to use the Platform.</p>
+                        <p>If we become aware that information relating to a person under 18 has been improperly
+                            submitted to us, we may take appropriate steps to delete or restrict that information and
+                            investigate the circumstances.</p>
+                        <p>Content involving minors is prohibited under our Platform rules.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-17">
+                        <h2>17. Security</h2>
+                        <p>We use reasonable technical and organizational measures appropriate to the nature of the
+                            information and services we operate.</p>
+                        <p>These may include:</p>
+                        <ul>
+                            <li>encrypted connections;</li>
+                            <li>access controls;</li>
+                            <li>authentication controls;</li>
+                            <li>network security;</li>
+                            <li>monitoring;</li>
+                            <li>abuse detection;</li>
+                            <li>logging;</li>
+                            <li>rate limiting; and</li>
+                            <li>infrastructure security measures.</li>
+                        </ul>
+                        <p>However, no security system is completely immune from compromise.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-18">
+                        <h2>18. Data Breaches and Security Incidents</h2>
+                        <p>If we become aware of a security incident affecting personal information and applicable law
+                            requires notification, we will take the steps required by that law.</p>
+                        <p>This may include notifying affected individuals, regulators, or other appropriate parties
+                            where legally required.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-19">
+                        <h2>19. Your Privacy Rights</h2>
+                        <p>Depending on your location and applicable law, you may have rights concerning your personal
+                            information, which may include:</p>
+                        <ul>
+                            <li>requesting access to personal information;</li>
+                            <li>requesting correction of inaccurate information;</li>
+                            <li>requesting deletion;</li>
+                            <li>requesting restriction of processing;</li>
+                            <li>objecting to certain processing;</li>
+                            <li>requesting portability of certain information; and</li>
+                            <li>withdrawing consent where processing is based on consent.</li>
+                        </ul>
+                        <p>The availability and scope of these rights depends on applicable law.</p>
+                        <p>To submit a privacy request, contact:</p>
+                        <p><strong><a
+                                    href="mailto:support@viralmmsvideo.dpdns.org">support@viralmmsvideo.dpdns.org</a></strong>
+                        </p>
+                        <p>Please provide sufficient information for us to understand and process your request.</p>
+                        <p>We may need to verify the identity or authority of a requester before disclosing or changing
+                            information.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-20">
+                        <h2>20. Legal Requests and Law Enforcement</h2>
+                        <p>We may cooperate with valid legal requests and competent authorities where required by
+                            applicable law.</p>
+                        <p>We do not voluntarily provide personal information merely because someone asks for it without
+                            appropriate legal or operational justification.</p>
+                        <p>Where legally permitted, we may seek to limit requests to information reasonably necessary
+                            for the stated purpose.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-21">
+                        <h2>21. Third-Party Infrastructure Disclaimer</h2>
+                        <p>The Platform relies on third-party infrastructure and service providers.</p>
+                        <p>Those providers may independently process technical information according to their own
+                            policies and legal obligations.</p>
+                        <p>We do not control the internal operations, security systems, jurisdictional obligations, or
+                            independent data-processing decisions of third-party providers.</p>
+                        <p>Accordingly, we cannot guarantee how an independent provider will respond to legal process,
+                            security events, or requests made directly to that provider.</p>
+                        <p>Where we have control over a particular processing activity, we will handle it according to
+                            this Privacy Policy and applicable law.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-22">
+                        <h2>22. No Data Monetization</h2>
+                        <p>We do not operate the Platform for the purpose of selling user browsing information, IP
+                            addresses, or personal information to data brokers.</p>
+                        <p>We do not intentionally use collected information for unlawful purposes.</p>
+                        <p>Our collection of technical information is primarily intended to keep the Platform
+                            functional, secure, measurable, and resistant to abuse.</p>
+                    </section>
+
+                    <section class="policy-section" id="section-23">
+                        <h2>23. Changes to This Privacy Policy</h2>
+                        <p>We may update this Privacy Policy from time to time.</p>
+                        <p>When we make changes, we may update the “Last Updated” date at the top of this document.</p>
+                        <p>Your continued use of the Platform after an updated Privacy Policy becomes available
+                            constitutes acknowledgement of the updated policy to the extent permitted by applicable law.
+                        </p>
+                    </section>
+
+                    <section class="policy-section" id="section-24">
+                        <h2>24. Contact</h2>
+                        <p>For privacy questions or requests:</p>
+                        <p><strong><a
+                                    href="mailto:support@viralmmsvideo.dpdns.org">support@viralmmsvideo.dpdns.org</a></strong>
+                        </p>
+                        <p>For copyright complaints:</p>
+                        <p><strong><a
+                                    href="mailto:dmca@viralmmsvideo.dpdns.org">dmca@viralmmsvideo.dpdns.org</a></strong>
+                        </p>
+                        <p>For official platform communications:</p>
+                        <p><strong><a href="mailto:wildspyder@protonmail.com">wildspyder@protonmail.com</a></strong></p>
+                        <p>We generally aim to respond to ordinary requests within approximately <strong>3 business
+                                days</strong>, although complex legal, privacy, or technical requests may require
+                            additional time.</p>
+                        <p>For urgent matters, please clearly mark your communication <strong>URGENT</strong>.</p>
+                    </section>
+
+                </div>
+            </div>
+
+            <footer class="policy-footer">
+                <p>© 2026 ViralMMSVideo. All rights reserved.</p>
+
+                <nav class="policy-links" aria-label="Legal and policy navigation">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/dmca-policy">DMCA Policy</a>
+                    <a href="/terms">Terms &amp; Conditions</a>
+                    <a href="/content-safety">Content Safety</a>
+                    <a href="/community-guidelines">Community Guidelines</a>
+                    <a href="/cookie-policy">Cookie Policy</a>
+                    <a href="/report-abuse">Report Abuse</a>
+                </nav>
+            </footer>
+
+        </article>
+    </main>
+
+</body>
+
+</html>
