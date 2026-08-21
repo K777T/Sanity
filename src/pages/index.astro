@@ -639,33 +639,31 @@ console.log("🔥 HOME VIDEO DATA:", videos);
 
   <!-- ================= HEADER ================= -->
 
-  
-<header class="header">
+  <header class="header">
   <a href="/" class="logo">
     <img src={logo.src} alt="ViralDekho" />
   </a>
+
+  <nav class="nav-tabs">
+    <a class="nav-tab active" href="/">Videos</a>
+    <a class="nav-tab" href="#">Library</a>
+  </nav>
+
+  <div class="search-bar">
+    <input
+      id="searchInput"
+      class="search-input"
+      type="text"
+      placeholder="Search videos..."
+    />
+
+    <i class="fas fa-search"></i>
+  </div>
+
+  <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+    <i class="fas fa-bars"></i>
+  </button>
 </header>
-
-    <nav class="nav-tabs">
-      <a class="nav-tab active" href="/">Videos</a>
-      <a class="nav-tab" href="#">Library</a>
-    </nav>
-
-    <div class="search-bar">
-      <input
-        id="searchInput"
-        class="search-input"
-        type="text"
-        placeholder="Search videos..."
-      />
-
-      <i class="fas fa-search"></i>
-    </div>
-
-    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
-      <i class="fas fa-bars"></i>
-    </button>
-  </header>
 
   <!-- ================= MOBILE MENU ================= -->
 
