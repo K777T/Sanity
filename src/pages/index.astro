@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { getVideos } from "../lib/queries";
+import logo from "../../assets/logo.png";
 
 const videos = await getVideos();
 
@@ -57,14 +58,10 @@ console.log("🔥 HOME VIDEO DATA:", videos);
       z-index: 100;
     }
 
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 21px;
-      font-weight: bold;
-      color: #00d4aa;
-      white-space: nowrap;
+    .logo img {
+      height: 40px;
+      width: auto;
+      display: block;
     }
 
     .nav-tabs {
@@ -642,11 +639,12 @@ console.log("🔥 HOME VIDEO DATA:", videos);
 
   <!-- ================= HEADER ================= -->
 
-  <header class="header">
-    <div class="logo">
-      <i class="fas fa-play-circle"></i>
-      ViralDekho
-    </div>
+  
+<header class="header">
+  <a href="/" class="logo">
+    <img src={logo.src} alt="ViralDekho" />
+  </a>
+</header>
 
     <nav class="nav-tabs">
       <a class="nav-tab active" href="/">Videos</a>
@@ -674,7 +672,6 @@ console.log("🔥 HOME VIDEO DATA:", videos);
   <div id="mobileMenuOverlay" class="mobile-menu-overlay"></div>
 
   <aside id="mobileMenu" class="mobile-menu">
-
     <div class="mobile-menu-header">
       <span>Menu</span>
 
@@ -720,7 +717,6 @@ console.log("🔥 HOME VIDEO DATA:", videos);
       <i class="fas fa-envelope"></i>
       DMCA
     </a>
-
   </aside>
 
   <!-- ================= MAIN ================= -->
@@ -853,42 +849,42 @@ console.log("🔥 HOME VIDEO DATA:", videos);
        2. Sanity image
     ===================================================== */
 
-  function getSanityImageUrl(source) {
-  if (!source) {
-    return "";
-  }
+    function getSanityImageUrl(source) {
+      if (!source) {
+        return "";
+      }
 
-  const ref = source.asset?._ref;
+      const ref = source.asset?._ref;
 
-  if (!ref) {
-    return "";
-  }
+      if (!ref) {
+        return "";
+      }
 
-  const parts = ref.split("-");
+      const parts = ref.split("-");
 
-  const format = parts.pop();
-  const dimensions = parts.pop();
+      const format = parts.pop();
+      const dimensions = parts.pop();
 
-  if (!dimensions || !format) {
-    return "";
-  }
+      if (!dimensions || !format) {
+        return "";
+      }
 
-  const [width, height] = dimensions.split("x");
+      const [width, height] = dimensions.split("x");
 
-  const hash = parts.slice(1).join("-");
+      const hash = parts.slice(1).join("-");
 
-  if (!hash || !width || !height) {
-    return "";
-  }
+      if (!hash || !width || !height) {
+        return "";
+      }
 
-  return (
-    `https://cdn.sanity.io/images/` +
-    `p3smjg3s/` +
-    `production/` +
-    `${hash}-${width}x${height}.${format}` +
-    `?auto=format&fit=crop&w=900&q=80`
-  );
-}
+      return (
+        `https://cdn.sanity.io/images/` +
+        `p3smjg3s/` +
+        `production/` +
+        `${hash}-${width}x${height}.${format}` +
+        `?auto=format&fit=crop&w=900&q=80`
+      );
+    }
 
     function getThumbnail(video) {
       if (typeof video.thumbnailUrl === "string" && video.thumbnailUrl.trim()) {
@@ -1174,52 +1170,48 @@ console.log("🔥 HOME VIDEO DATA:", videos);
        CATEGORIES
     ===================================================== */
 
-   function renderCategories(videoList) {
-  const categories = [
-    ...new Set(
-      videoList
-        .map((video) => video.category)
-        .filter(Boolean)
-    ),
-  ];
+    function renderCategories(videoList) {
+      const categories = [
+        ...new Set(videoList.map((video) => video.category).filter(Boolean)),
+      ];
 
-  const containers = [
-    document.getElementById("categoryMenu"),
-    document.getElementById("mobileCategoryMenu"),
-  ].filter(Boolean);
+      const containers = [
+        document.getElementById("categoryMenu"),
+        document.getElementById("mobileCategoryMenu"),
+      ].filter(Boolean);
 
-  containers.forEach((container) => {
-    container.innerHTML = "";
+      containers.forEach((container) => {
+        container.innerHTML = "";
 
-    categories.slice(0, 10).forEach((category) => {
-      const item = document.createElement("a");
+        categories.slice(0, 10).forEach((category) => {
+          const item = document.createElement("a");
 
-      item.className = "sidebar-item";
-      item.href = "#latest";
+          item.className = "sidebar-item";
+          item.href = "#latest";
 
-      item.innerHTML = `
+          item.innerHTML = `
         <i class="fas fa-film"></i>
         ${escapeHtml(category)}
       `;
 
-      item.onclick = (event) => {
-        event.preventDefault();
+          item.onclick = (event) => {
+            event.preventDefault();
 
-        filterCategory(videoList, category);
+            filterCategory(videoList, category);
 
-        const menu = document.getElementById("mobileMenu");
-        const overlay = document.getElementById("mobileMenuOverlay");
+            const menu = document.getElementById("mobileMenu");
+            const overlay = document.getElementById("mobileMenuOverlay");
 
-        if (menu) menu.classList.remove("open");
-        if (overlay) overlay.classList.remove("open");
+            if (menu) menu.classList.remove("open");
+            if (overlay) overlay.classList.remove("open");
 
-        document.body.style.overflow = "";
-      };
+            document.body.style.overflow = "";
+          };
 
-      container.appendChild(item);
-    });
-  });
-}
+          container.appendChild(item);
+        });
+      });
+    }
     /* =====================================================
        CATEGORY FILTER
     ===================================================== */
@@ -1341,33 +1333,33 @@ console.log("🔥 HOME VIDEO DATA:", videos);
       setupMobileMenu();
     }
     function setupMobileMenu() {
-  const menu = document.getElementById("mobileMenu");
-  const overlay = document.getElementById("mobileMenuOverlay");
-  const openBtn = document.getElementById("mobileMenuBtn");
-  const closeBtn = document.getElementById("mobileMenuClose");
+      const menu = document.getElementById("mobileMenu");
+      const overlay = document.getElementById("mobileMenuOverlay");
+      const openBtn = document.getElementById("mobileMenuBtn");
+      const closeBtn = document.getElementById("mobileMenuClose");
 
-  if (!menu || !overlay || !openBtn || !closeBtn) return;
+      if (!menu || !overlay || !openBtn || !closeBtn) return;
 
-  function openMenu() {
-    menu.classList.add("open");
-    overlay.classList.add("open");
-    document.body.style.overflow = "hidden";
-  }
+      function openMenu() {
+        menu.classList.add("open");
+        overlay.classList.add("open");
+        document.body.style.overflow = "hidden";
+      }
 
-  function closeMenu() {
-    menu.classList.remove("open");
-    overlay.classList.remove("open");
-    document.body.style.overflow = "";
-  }
+      function closeMenu() {
+        menu.classList.remove("open");
+        overlay.classList.remove("open");
+        document.body.style.overflow = "";
+      }
 
-  openBtn.addEventListener("click", openMenu);
-  closeBtn.addEventListener("click", closeMenu);
-  overlay.addEventListener("click", closeMenu);
+      openBtn.addEventListener("click", openMenu);
+      closeBtn.addEventListener("click", closeMenu);
+      overlay.addEventListener("click", closeMenu);
 
-  menu.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", closeMenu);
-  });
-}
+      menu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", closeMenu);
+      });
+    }
 
     init();
   </script>
