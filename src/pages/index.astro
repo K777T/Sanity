@@ -59,8 +59,8 @@ console.log("🔥 HOME VIDEO DATA:", videos);
     }
 
     .logo img {
-      height: 40px;
-      width: auto;
+      height: 70px;
+      width: 210px;
       display: block;
     }
 
@@ -634,36 +634,47 @@ console.log("🔥 HOME VIDEO DATA:", videos);
         opacity: 1;
         visibility: visible;
       }
+      .logo img {
+        height: auto;
+        width: auto;
+        display: block;
+      }
+
+      @media (max-width: 800px) {
+        .logo img {
+          height: 60px;
+        }
+      }
     }
   </style>
 
   <!-- ================= HEADER ================= -->
 
   <header class="header">
-  <a href="/" class="logo">
-    <img src={logo.src} alt="ViralDekho" />
-  </a>
+    <a href="/" class="logo">
+      <img src={logo.src} alt="ViralDekho" />
+    </a>
 
-  <nav class="nav-tabs">
-    <a class="nav-tab active" href="/">Videos</a>
-    <a class="nav-tab" href="#">Library</a>
-  </nav>
+    <nav class="nav-tabs">
+      <a class="nav-tab active" href="/">Videos</a>
+      <a class="nav-tab" href="#">Library</a>
+    </nav>
 
-  <div class="search-bar">
-    <input
-      id="searchInput"
-      class="search-input"
-      type="text"
-      placeholder="Search videos..."
-    />
+    <div class="search-bar">
+      <input
+        id="searchInput"
+        class="search-input"
+        type="text"
+        placeholder="Search videos..."
+      />
 
-    <i class="fas fa-search"></i>
-  </div>
+      <i class="fas fa-search"></i>
+    </div>
 
-  <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
-    <i class="fas fa-bars"></i>
-  </button>
-</header>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
 
   <!-- ================= MOBILE MENU ================= -->
 
